@@ -1,0 +1,1595 @@
+2024-03-29 09:51:39.522 +08:00 [INF] 
+   __     ___   ______                                           _    
+   \ \   / (_) |  ____|                                         | |   
+    \ \_/ / _  | |__ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+     \   / | | |  __| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+      | |  | | | |  | | | (_| | | | | | |  __/\ V  V / (_) | |  |   < 
+      |_|  |_| |_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+
+2024-03-29 09:51:39.542 +08:00 [INF] Yi框架-Abp.vNext，启动！
+2024-03-29 09:51:45.779 +08:00 [INF] Loaded ABP modules:
+2024-03-29 09:51:45.780 +08:00 [INF] - Yi.Abp.Web.YiAbpWebModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Yi.Abp.SqlsugarCore.YiAbpSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Abp.Domain.YiAbpDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Abp.Domain.Shared.YiAbpDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.Rbac.Domain.Shared.YiFrameworkRbacDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-29 09:51:45.780 +08:00 [INF]                 - Volo.Abp.Settings.AbpSettingsModule
+2024-03-29 09:51:45.780 +08:00 [INF]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]                   - Volo.Abp.Security.AbpSecurityModule
+2024-03-29 09:51:45.780 +08:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2024-03-29 09:51:45.780 +08:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-29 09:51:45.780 +08:00 [INF]                       - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-29 09:51:45.780 +08:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Yi.Framework.Mapster.YiFrameworkMapsterModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Yi.Framework.Core.YiFrameworkCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.Bbs.Domain.Shared.YiFrameworkBbsDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.AuditLogging.Domain.Shared.YiFrameworkAuditLoggingDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.TenantManagement.Domain.YiFrameworkTenantManagementDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-29 09:51:45.780 +08:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.Rbac.Domain.YiFrameworkRbacDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.Caching.FreeRedis.YiFrameworkCachingFreeRedisModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Volo.Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2024-03-29 09:51:45.780 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-29 09:51:45.780 +08:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.Bbs.Domain.YiFrameworkBbsDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.AuditLogging.Domain.YiFrameworkAuditLoggingDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.Rbac.SqlSugarCore.YiFrameworkRbacSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.Bbs.SqlSugarCore.YiFrameworkBbsSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.CodeGen.SqlSugarCore.YiFrameworkCodeGenSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.AuditLogging.SqlSugarCore.YiFrameworkAuditLoggingSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.TenantManagement.SqlSugarCore.YiFrameworkTenantManagementSqlSugarCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Yi.Abp.Application.YiAbpApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Abp.Application.Contracts.YiAbpApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.Rbac.Application.Contracts.YiFrameworkRbacApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.Ddd.Application.Contracts.YiFrameworkDddApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.Bbs.Application.Contracts.YiFrameworkBbsApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.TenantManagement.Application.Contracts.YiFrameworkTenantManagementApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.Rbac.Application.YiFrameworkRbacApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.Ddd.Application.YiFrameworkDddApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-03-29 09:51:45.780 +08:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Volo.Abp.Quartz.AbpQuartzModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.Bbs.Application.YiFrameworkBbsApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.TenantManagement.Application.YiFrameworkTenantManagementApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Yi.Framework.CodeGen.Application.YiFrameworkCodeGenApplicationModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.CodeGen.Application.Contracts.YiFrameworkCodeGenApplicationContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.CodeGen.Domain.Shared.YiFrameworkCodeGenDomainSharedModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Yi.Framework.CodeGen.Domain.YiFrameworkCodeGenDomainModule
+2024-03-29 09:51:45.780 +08:00 [INF]         - Yi.Framework.SqlSugarCore.Abstractions.YiFrameworkSqlSugarCoreAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-03-29 09:51:45.780 +08:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-29 09:51:45.780 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Yi.Framework.AspNetCore.YiFrameworkAspNetCoreModule
+2024-03-29 09:51:45.780 +08:00 [INF]   - Yi.Framework.AspNetCore.Authentication.OAuth.YiFrameworkAspNetCoreAuthenticationOAuthModule
+2024-03-29 09:51:45.786 +08:00 [DBG] ==========模块Initialize初始化统计-跳过0ms模块==========
+2024-03-29 09:51:45.792 +08:00 [INF] 
+==========Yi-SQL配置:==========
+数据库连接字符串：DataSource=yi-abp-dev.db
+数据库类型：Sqlite
+是否开启种子数据：True
+是否开启CodeFirst：True
+是否开启Saas多租户：False
+===============================
+
+2024-03-29 09:51:46.083 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.085 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.093 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiTenant"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Name" varchar(255) NOT NULL  ,
+"EntityVersion" integer NOT NULL  ,
+"TenantConnectionString" varchar(255) NOT NULL  ,
+"DbType" integer NOT NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"DeleterId" uniqueidentifier NULL  ,
+"DeletionTime" datetime NULL  ,
+"LastModificationTime" datetime NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.093 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.104 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.104 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.116 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "OperationLog"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Title" varchar(255) NULL  ,
+"OperType" integer NOT NULL  ,
+"RequestMethod" varchar(255) NULL  ,
+"OperUser" varchar(255) NULL  ,
+"OperIp" varchar(255) NULL  ,
+"OperLocation" varchar(255) NULL  ,
+"Method" varchar(255) NULL  ,
+"RequestParam" varchar(255) NULL  ,
+"RequestResult" varchar(9999) NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL    )
+===============================
+
+2024-03-29 09:51:46.117 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.122 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.122 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.122 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Config"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"ConfigName" varchar(255) NOT NULL  ,
+"ConfigKey" varchar(255) NOT NULL  ,
+"ConfigValue" varchar(255) NOT NULL  ,
+"ConfigType" varchar(255) NULL  ,
+"OrderNum" integer NOT NULL  ,
+"Remark" varchar(255) NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL    )
+===============================
+
+2024-03-29 09:51:46.123 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.126 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.126 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.126 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Dept"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL  ,
+"DeptName" varchar(255) NOT NULL  ,
+"DeptCode" varchar(255) NOT NULL  ,
+"Leader" varchar(255) NULL  ,
+"ParentId" uniqueidentifier NOT NULL  ,
+"Remark" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.127 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.131 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.131 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.131 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Dictionary"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL  ,
+"Remark" varchar(255) NULL  ,
+"ListClass" varchar(255) NULL  ,
+"CssClass" varchar(255) NULL  ,
+"DictType" varchar(255) NOT NULL  ,
+"DictLabel" varchar(255) NULL  ,
+"DictValue" varchar(255) NOT NULL  ,
+"IsDefault" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL    )
+===============================
+
+2024-03-29 09:51:46.131 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.137 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.137 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.137 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "DictionaryType"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NULL  ,
+"DictName" varchar(255) NOT NULL  ,
+"DictType" varchar(255) NOT NULL  ,
+"Remark" varchar(255) NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.139 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.144 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.144 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.145 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "File"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"FileSize" decimal NOT NULL  ,
+"FileName" varchar(255) NOT NULL  ,
+"FilePath" varchar(255) NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.146 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.152 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.152 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.152 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "LoginLog"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CreationTime" datetime NOT NULL  ,
+"LoginUser" varchar(255) NULL  ,
+"LoginLocation" varchar(255) NULL  ,
+"LoginIp" varchar(255) NULL  ,
+"Browser" varchar(255) NULL  ,
+"Os" varchar(255) NULL  ,
+"LogMsg" varchar(255) NULL  ,
+"CreatorId" uniqueidentifier NULL    )
+===============================
+
+2024-03-29 09:51:46.153 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.154 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_LoginUser'
+===============================
+
+2024-03-29 09:51:46.155 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.158 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_LoginUser ON `LoginLog`(`LoginUser` Asc)
+===============================
+
+2024-03-29 09:51:46.158 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.162 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.162 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.163 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Menu"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL  ,
+"MenuName" varchar(255) NOT NULL  ,
+"MenuType" integer NOT NULL  ,
+"PermissionCode" varchar(255) NULL  ,
+"ParentId" uniqueidentifier NOT NULL  ,
+"MenuIcon" varchar(255) NULL  ,
+"Router" varchar(255) NULL  ,
+"IsLink" bit NOT NULL  ,
+"IsCache" bit NOT NULL  ,
+"IsShow" bit NOT NULL  ,
+"Remark" varchar(255) NULL  ,
+"Component" varchar(255) NULL  ,
+"Query" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.164 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.170 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.170 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.170 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Notice"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Title" varchar(255) NOT NULL  ,
+"Type" integer NOT NULL  ,
+"Content" text NOT NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.171 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.175 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.175 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.175 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Post"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL  ,
+"PostCode" varchar(255) NOT NULL  ,
+"PostName" varchar(255) NOT NULL  ,
+"Remark" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.176 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.179 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.179 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.179 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "RoleDept"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"RoleId" uniqueidentifier NOT NULL  ,
+"DeptId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.180 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.184 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.184 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.184 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Role"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"RoleName" varchar(255) NOT NULL  ,
+"RoleCode" varchar(255) NOT NULL  ,
+"Remark" varchar(255) NULL  ,
+"DataScope" integer NOT NULL  ,
+"State" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.185 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.188 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.188 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.189 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "RoleMenu"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"RoleId" uniqueidentifier NOT NULL  ,
+"MenuId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.189 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.193 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.193 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.194 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "User"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"Name" varchar(255) NULL  ,
+"Age" integer NULL  ,
+"UserName" varchar(255) NOT NULL  ,
+"Password" varchar(255) NOT NULL  ,
+"Salt" varchar(255) NOT NULL  ,
+"Icon" varchar(255) NULL  ,
+"Nick" varchar(255) NULL  ,
+"Email" varchar(255) NULL  ,
+"Ip" varchar(255) NULL  ,
+"Address" varchar(255) NULL  ,
+"Phone" bigint NULL  ,
+"Introduction" varchar(255) NULL  ,
+"Remark" varchar(255) NULL  ,
+"Sex" integer NOT NULL  ,
+"DeptId" uniqueidentifier NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"State" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.195 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.195 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_UserName'
+===============================
+
+2024-03-29 09:51:46.195 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.195 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_UserName ON `User`(`UserName` Asc)
+===============================
+
+2024-03-29 09:51:46.195 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.198 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.198 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.198 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "UserPost"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"UserId" uniqueidentifier NOT NULL  ,
+"PostId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.199 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.202 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.202 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.202 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "UserRole"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"RoleId" uniqueidentifier NOT NULL  ,
+"UserId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.203 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.207 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.207 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.207 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Auth"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"UserId" uniqueidentifier NOT NULL  ,
+"OpenId" varchar(255) NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"AuthType" varchar(255) NOT NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.208 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.212 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.212 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.212 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "AccessLog"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Number" bigint NOT NULL  ,
+"LastModificationTime" datetime NULL  ,
+"CreationTime" datetime NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.213 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.216 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.216 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.216 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "BbsUserExtraInfo"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"UserId" uniqueidentifier NOT NULL  ,
+"UserLimit" integer NOT NULL  ,
+"Level" integer NOT NULL  ,
+"Money" decimal NOT NULL  ,
+"Experience" bigint NOT NULL  ,
+"DiscussNumber" integer NOT NULL  ,
+"CommentNumber" integer NOT NULL  ,
+"AgreeNumber" integer NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.217 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.217 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_UserId'
+===============================
+
+2024-03-29 09:51:46.217 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.217 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_UserId ON `BbsUserExtraInfo`(`UserId` Asc)
+===============================
+
+2024-03-29 09:51:46.217 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.220 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.220 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.220 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Setting"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CommentPage" integer NOT NULL  ,
+"DiscussPage" integer NOT NULL  ,
+"CommentExperience" integer NOT NULL  ,
+"DiscussExperience" integer NOT NULL  ,
+"Title" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.222 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.224 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.224 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.225 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Level"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CurrentLevel" integer NOT NULL  ,
+"MinExperience" decimal NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"Nick" varchar(255) NULL  ,
+"Logo" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.226 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.229 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.229 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.229 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "SignIn"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"ContinuousNumber" integer NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.230 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.230 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_CreatorId'
+===============================
+
+2024-03-29 09:51:46.230 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.230 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_CreatorId ON `SignIn`(`CreatorId` Asc)
+===============================
+
+2024-03-29 09:51:46.230 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.233 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.233 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.233 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Agree"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CreationTime" datetime NOT NULL  ,
+"DiscussId" uniqueidentifier NOT NULL  ,
+"CreatorId" uniqueidentifier NULL    )
+===============================
+
+2024-03-29 09:51:46.234 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.234 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_CreatorId_DiscussId'
+===============================
+
+2024-03-29 09:51:46.234 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.234 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_CreatorId_DiscussId ON `Agree`(`CreatorId` Asc,`DiscussId` Asc)
+===============================
+
+2024-03-29 09:51:46.234 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.238 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.238 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.239 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Article"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"Content" text NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"DiscussId" uniqueidentifier NOT NULL  ,
+"ParentId" uniqueidentifier NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_Name'
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_Name ON `Article`(`Name` Asc)
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_ParentId'
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_ParentId ON `Article`(`ParentId` Asc)
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_DiscussId'
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.240 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_DiscussId ON `Article`(`DiscussId` Asc)
+===============================
+
+2024-03-29 09:51:46.240 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.244 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.244 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.244 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Banner"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Name" varchar(255) NOT NULL  ,
+"Logo" varchar(255) NULL  ,
+"Color" varchar(255) NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL    )
+===============================
+
+2024-03-29 09:51:46.245 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.249 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.249 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.250 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Comment"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"Content" varchar(500) NOT NULL  ,
+"DiscussId" uniqueidentifier NOT NULL  ,
+"ParentId" uniqueidentifier NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"RootId" uniqueidentifier NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL    )
+===============================
+
+2024-03-29 09:51:46.251 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.251 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_DiscussId'
+===============================
+
+2024-03-29 09:51:46.251 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.251 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_ParentId'
+===============================
+
+2024-03-29 09:51:46.251 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.256 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.256 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.256 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Discuss"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Title" varchar(255) NULL  ,
+"Types" varchar(255) NULL  ,
+"Introduction" varchar(255) NULL  ,
+"AgreeNum" integer NOT NULL  ,
+"SeeNum" integer NOT NULL  ,
+"Cover" varchar(255) NULL  ,
+"Content" text NOT NULL  ,
+"Color" varchar(255) NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"IsTop" bit NOT NULL  ,
+"OrderNum" integer NOT NULL  ,
+"PermissionType" integer NOT NULL  ,
+"PlateId" uniqueidentifier NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"PermissionUserIds" varchar(4000) NULL  ,
+"IsDisableCreateComment" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.257 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.257 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_Title'
+===============================
+
+2024-03-29 09:51:46.257 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.257 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_Title ON `Discuss`(`Title` Asc)
+===============================
+
+2024-03-29 09:51:46.258 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.258 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_PlateId'
+===============================
+
+2024-03-29 09:51:46.258 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.258 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_PlateId ON `Discuss`(`PlateId` Asc)
+===============================
+
+2024-03-29 09:51:46.258 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.258 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_CreationTime'
+===============================
+
+2024-03-29 09:51:46.258 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.258 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_CreationTime ON `Discuss`(`CreationTime` Desc)
+===============================
+
+2024-03-29 09:51:46.258 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.261 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.261 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.261 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "DiscussMyType"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"DiscussId" uniqueidentifier NOT NULL  ,
+"MyTypeId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.262 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.265 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.265 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.265 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "DiscussTop"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"OrderNum" integer NOT NULL  ,
+"DiscussId" uniqueidentifier NOT NULL  ,
+"LastModificationTime" datetime NULL    )
+===============================
+
+2024-03-29 09:51:46.266 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.269 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.270 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.270 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "MyType"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"IsDeleted" bit NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"Color" varchar(255) NULL  ,
+"BackgroundColor" varchar(255) NULL  ,
+"UserId" uniqueidentifier NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.271 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.275 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.275 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.275 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "Plate"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Code" varchar(255) NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"Logo" varchar(255) NULL  ,
+"Introduction" varchar(255) NULL  ,
+"IsDeleted" bit NOT NULL  ,
+"CreationTime" datetime NOT NULL  ,
+"CreatorId" uniqueidentifier NULL  ,
+"LastModifierId" uniqueidentifier NULL  ,
+"LastModificationTime" datetime NULL  ,
+"OrderNum" integer NOT NULL  ,
+"IsDisableCreateDiscuss" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.276 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.280 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.280 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.280 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "BankCard"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CreationTime" datetime NOT NULL  ,
+"LastDepositTime" datetime NULL  ,
+"LastDrawTime" datetime NULL  ,
+"UserId" uniqueidentifier NOT NULL  ,
+"StorageMoney" decimal NOT NULL  ,
+"MaxStorageMoney" decimal NOT NULL  ,
+"FulltermTime" datetime NULL  ,
+"BankCardState" integer NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.281 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.283 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.283 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.284 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "InterestRecords"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"CreationTime" datetime NOT NULL  ,
+"ComparisonValue" decimal NOT NULL  ,
+"Value" decimal NOT NULL  ,
+"IsFluctuate" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.285 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.289 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.290 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.290 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiAuditLogAction"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"TenantId" uniqueidentifier NULL  ,
+"AuditLogId" uniqueidentifier NOT NULL  ,
+"ServiceName" varchar(255) NULL  ,
+"MethodName" varchar(255) NULL  ,
+"Parameters" varchar(255) NULL  ,
+"ExecutionTime" datetime NULL  ,
+"ExecutionDuration" integer NULL    )
+===============================
+
+2024-03-29 09:51:46.291 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.291 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_AuditLogId'
+===============================
+
+2024-03-29 09:51:46.291 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.291 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_AuditLogId ON `YiAuditLogAction`(`AuditLogId` Asc)
+===============================
+
+2024-03-29 09:51:46.291 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.291 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_TenantId_ExecutionTime'
+===============================
+
+2024-03-29 09:51:46.291 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.291 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_TenantId_ExecutionTime ON `YiAuditLogAction`(`TenantId` Asc,`ServiceName` Asc,`MethodName` Asc,`ExecutionTime` Asc)
+===============================
+
+2024-03-29 09:51:46.291 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.298 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.298 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.298 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiAuditLog"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"ApplicationName" varchar(255) NULL  ,
+"UserId" uniqueidentifier NULL  ,
+"UserName" varchar(255) NULL  ,
+"TenantName" varchar(255) NULL  ,
+"ImpersonatorUserId" uniqueidentifier NULL  ,
+"ImpersonatorUserName" varchar(255) NULL  ,
+"ImpersonatorTenantId" uniqueidentifier NULL  ,
+"ImpersonatorTenantName" varchar(255) NULL  ,
+"ExecutionTime" datetime NULL  ,
+"ExecutionDuration" integer NULL  ,
+"ClientIpAddress" varchar(255) NULL  ,
+"ClientName" varchar(255) NULL  ,
+"ClientId" varchar(255) NULL  ,
+"CorrelationId" varchar(255) NULL  ,
+"BrowserInfo" varchar(255) NULL  ,
+"HttpMethod" varchar(255) NULL  ,
+"Url" varchar(255) NULL  ,
+"Exceptions" varchar(255) NULL  ,
+"Comments" varchar(255) NULL  ,
+"HttpStatusCode" integer NULL  ,
+"TenantId" uniqueidentifier NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.300 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.300 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_ExecutionTime'
+===============================
+
+2024-03-29 09:51:46.300 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.300 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_ExecutionTime ON `YiAuditLog`(`TenantId` Asc,`ExecutionTime` Asc)
+===============================
+
+2024-03-29 09:51:46.300 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.300 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_ExecutionTime_UserId'
+===============================
+
+2024-03-29 09:51:46.300 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.300 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_ExecutionTime_UserId ON `YiAuditLog`(`TenantId` Asc,`UserId` Asc,`ExecutionTime` Asc)
+===============================
+
+2024-03-29 09:51:46.300 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.304 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.304 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.305 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiEntityChange"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"AuditLogId" uniqueidentifier NOT NULL  ,
+"TenantId" uniqueidentifier NULL  ,
+"ChangeTime" datetime NULL  ,
+"ChangeType" integer NULL  ,
+"EntityTenantId" uniqueidentifier NULL  ,
+"EntityId" varchar(255) NULL  ,
+"EntityTypeFullName" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.306 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.306 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_AuditLogId'
+===============================
+
+2024-03-29 09:51:46.306 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.306 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_TenantId_EntityId'
+===============================
+
+2024-03-29 09:51:46.306 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.306 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_TenantId_EntityId ON `YiEntityChange`(`TenantId` Asc,`EntityTypeFullName` Asc,`EntityId` Asc)
+===============================
+
+2024-03-29 09:51:46.306 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.310 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.310 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.310 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiEntityPropertyChange"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"TenantId" uniqueidentifier NULL  ,
+"EntityChangeId" uniqueidentifier NULL  ,
+"NewValue" varchar(255) NULL  ,
+"OriginalValue" varchar(255) NULL  ,
+"PropertyName" varchar(255) NULL  ,
+"PropertyTypeFullName" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.311 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.311 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT count(*) FROM sqlite_master WHERE name = 'index_EntityChangeId'
+===============================
+
+2024-03-29 09:51:46.311 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.311 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE  INDEX index_EntityChangeId ON `YiEntityPropertyChange`(`EntityChangeId` Asc)
+===============================
+
+2024-03-29 09:51:46.311 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.315 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.315 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.315 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiField"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Name" varchar(255) NOT NULL  ,
+"Description" varchar(255) NULL  ,
+"OrderNum" integer NOT NULL  ,
+"Length" integer NOT NULL  ,
+"FieldType" integer NOT NULL  ,
+"TableId" uniqueidentifier NOT NULL  ,
+"IsRequired" bit NOT NULL  ,
+"IsKey" bit NOT NULL  ,
+"IsAutoAdd" bit NOT NULL  ,
+"IsPublic" bit NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.316 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.320 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.320 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.320 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiTable"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"Name" varchar(255) NOT NULL  ,
+"Description" varchar(255) NULL  ,
+"ConcurrencyStamp" varchar(255) NOT NULL    )
+===============================
+
+2024-03-29 09:51:46.322 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.325 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+===============================
+
+2024-03-29 09:51:46.325 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.325 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+CREATE TABLE "YiTemplate"(
+"Id" uniqueidentifier NOT NULL PRIMARY KEY ,
+"TemplateStr" text NOT NULL  ,
+"BuildPath" varchar(255) NOT NULL  ,
+"Name" varchar(255) NOT NULL  ,
+"Remarks" varchar(255) NULL    )
+===============================
+
+2024-03-29 09:51:46.326 +08:00 [DBG] =========Yi-SQL耗时0毫秒=====
+2024-03-29 09:51:46.421 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Dept`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.425 +08:00 [DBG] =========Yi-SQL耗时4.8504毫秒=====
+2024-03-29 09:51:46.483 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Dept`  (`Id`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State`,`DeptName`,`DeptCode`,`Leader`,`ParentId`,`Remark`) VALUES('23b716a6-10da-3fe5-7099-3a119a14c114',0,'2024-03-29 09:51:46.452',NULL,NULL,NULL,'100',1,'橙子科技','Yi','橙子','00000000-0000-0000-0000-000000000000','如名所指'),  ('df545dd8-d352-627d-c128-3a119a14c114',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'深圳总公司','',NULL,'23b716a6-10da-3fe5-7099-3a119a14c114',NULL),  ('4d6f0c6e-6e94-ee17-d74d-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'江西总公司','',NULL,'23b716a6-10da-3fe5-7099-3a119a14c114',NULL),  ('0e643cc6-5c04-de0a-86a0-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'研发部门','',NULL,'df545dd8-d352-627d-c128-3a119a14c114',NULL),  ('f292acbd-1d93-d8fc-1d8b-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'市场部门','',NULL,'df545dd8-d352-627d-c128-3a119a14c114',NULL),  ('42cc6024-4514-844e-2e22-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'测试部门','',NULL,'df545dd8-d352-627d-c128-3a119a14c114',NULL),  ('087128ef-46b0-cbfc-c205-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'财务部门','',NULL,'df545dd8-d352-627d-c128-3a119a14c114',NULL),  ('d645f28f-c84b-4a43-4b17-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'运维部门','',NULL,'df545dd8-d352-627d-c128-3a119a14c114',NULL),  ('1f14df94-f9d6-54b5-4dcf-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'市场部门','',NULL,'4d6f0c6e-6e94-ee17-d74d-3a119a14c115',NULL),  ('bfaee9a8-9c97-866b-4847-3a119a14c115',0,'2024-03-29 09:51:46.453',NULL,NULL,NULL,'100',1,'财务部门','',NULL,'4d6f0c6e-6e94-ee17-d74d-3a119a14c115',NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.484 +08:00 [DBG] =========Yi-SQL耗时1.2959毫秒=====
+2024-03-29 09:51:46.487 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Dictionary`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.488 +08:00 [DBG] =========Yi-SQL耗时0.199毫秒=====
+2024-03-29 09:51:46.493 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Dictionary`  (`Id`,`IsDeleted`,`OrderNum`,`State`,`Remark`,`ListClass`,`CssClass`,`DictType`,`DictLabel`,`DictValue`,`IsDefault`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`) VALUES('188cde79-19d3-893f-71c4-3a119a14c13a',0,'100',1,'性别男',NULL,NULL,'sys_user_sex','男','0',0,'2024-03-29 09:51:46.490',NULL,NULL,NULL),  ('19740592-32c2-500d-1a85-3a119a14c13b',0,'99',1,'性别女',NULL,NULL,'sys_user_sex','女','1',0,'2024-03-29 09:51:46.491',NULL,NULL,NULL),  ('1a867da3-7eb1-93c5-fcce-3a119a14c13c',0,'98',1,'性别未知',NULL,NULL,'sys_user_sex','未知','2',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('9ed1f6df-a9ca-cb72-9dba-3a119a14c13c',0,'100',1,'显示菜单',NULL,NULL,'sys_show_hide','显示','true',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('6cf44832-7644-e23d-2bd2-3a119a14c13c',0,'99',1,'隐藏菜单',NULL,NULL,'sys_show_hide','隐藏','false',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('9bda343f-1215-9f90-10d2-3a119a14c13c',0,'100',1,'正常状态',NULL,NULL,'sys_normal_disable','正常','true',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('3a188def-4cc1-a3be-a205-3a119a14c13c',0,'99',1,'停用状态','danger',NULL,'sys_normal_disable','停用','false',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('daaa170e-ef8b-17ea-7a60-3a119a14c13c',0,'100',1,'正常状态',NULL,NULL,'sys_job_status','正常','0',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('2d56c7e9-ef2f-d55d-ccf6-3a119a14c13c',0,'99',1,'停用状态','danger',NULL,'sys_job_status','暂停','1',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('7ed8c0b6-f731-1533-6b99-3a119a14c13c',0,'100',1,'默认分组',NULL,NULL,'sys_job_group','默认','DEFAULT',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('78694689-d98e-41da-7a1d-3a119a14c13c',0,'99',1,'系统分组',NULL,NULL,'sys_job_group','系统','SYSTEM',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('57c51b7d-479e-50a0-5e6b-3a119a14c13c',0,'100',1,'系统默认是',NULL,NULL,'sys_yes_no','是','Y',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('c5139416-b1d6-0119-7a08-3a119a14c13c',0,'99',1,'系统默认否','danger',NULL,'sys_yes_no','否','N',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('99ed07e4-c85f-5816-8811-3a119a14c13c',0,'100',1,'通知',NULL,NULL,'sys_notice_type','通知','1',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('6ed27e66-bad6-d7e3-0049-3a119a14c13c',0,'99',1,'公告',NULL,NULL,'sys_notice_type','公告','2',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('b5fb8659-534b-d245-e24f-3a119a14c13c',0,'100',1,'正常状态',NULL,NULL,'sys_notice_status','正常','0',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('7ef83f5b-31cf-e47b-d1d1-3a119a14c13c',0,'99',1,'关闭状态','danger',NULL,'sys_notice_status','关闭','1',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('0670d5ea-a7a3-9bec-3a46-3a119a14c13c',0,'100',1,'新增操作',NULL,NULL,'sys_oper_type','新增','Insert',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('c7825853-4b91-ca51-2bef-3a119a14c13c',0,'99',1,'修改操作',NULL,NULL,'sys_oper_type','修改','Update',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('5269c343-e90b-ddd1-00ef-3a119a14c13c',0,'98',1,'删除操作','danger',NULL,'sys_oper_type','删除','Delete',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('e2b87d22-76ff-515b-b7a3-3a119a14c13c',0,'97',1,'授权操作',NULL,NULL,'sys_oper_type','授权','Auth',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('e11c072d-f1a0-ba8a-f51a-3a119a14c13c',0,'96',1,'导出操作',NULL,NULL,'sys_oper_type','导出','Export',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('695da9ea-6ad9-6f2b-8fcd-3a119a14c13c',0,'95',1,'导入操作',NULL,NULL,'sys_oper_type','导入','Import',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('cccc98b4-d500-5648-97c3-3a119a14c13c',0,'94',1,'强退操作',NULL,NULL,'sys_oper_type','强退','ForcedOut',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('04216d31-4d79-8942-53da-3a119a14c13c',0,'93',1,'生成代码操作',NULL,NULL,'sys_oper_type','生成代码','GenerateCode',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('a46c30b6-580b-1204-ecf3-3a119a14c13c',0,'92',1,'清空数据操作','danger',NULL,'sys_oper_type','清空数据','ClearData',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('49a6b516-0bcf-06db-ecf7-3a119a14c13c',0,'100',1,'正常状态',NULL,NULL,'sys_common_status','成功','false',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL),  ('7768e90a-81b1-1be0-798f-3a119a14c13c',0,'99',1,'失败状态','danger',NULL,'sys_common_status','失败','true',0,'2024-03-29 09:51:46.492',NULL,NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.493 +08:00 [DBG] =========Yi-SQL耗时0.5285毫秒=====
+2024-03-29 09:51:46.497 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `DictionaryType`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.497 +08:00 [DBG] =========Yi-SQL耗时0.245毫秒=====
+2024-03-29 09:51:46.506 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `DictionaryType`  (`Id`,`IsDeleted`,`OrderNum`,`State`,`DictName`,`DictType`,`Remark`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`ConcurrencyStamp`) VALUES('0db53bbb-a341-ca36-3c56-3a119a14c146',0,'100',1,'用户性别','sys_user_sex','用户性别列表','2024-03-29 09:51:46.502',NULL,NULL,NULL,'bfeca31beff34ac6b7fc5ffdeab7474e'),  ('ab2bb2f7-3a03-a4af-649a-3a119a14c147',0,'100',1,'菜单状态','sys_show_hide','菜单状态列表','2024-03-29 09:51:46.504',NULL,NULL,NULL,'e536a46004fb4a2ea79285b1f2b1f339'),  ('96e9170d-e7f4-27b2-9d0d-3a119a14c148',0,'100',1,'系统开关','sys_normal_disable','系统开关列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'d304473a83ea43289fbd10c048daa5cb'),  ('5ca35471-8680-78f3-0294-3a119a14c149',0,'100',1,'任务状态','sys_job_status','任务状态列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'fc1c8e5bdcfb4b5db7c07c6d5bc966e3'),  ('7094ecee-657b-c760-665c-3a119a14c149',0,'100',1,'任务分组','sys_job_group','任务分组列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'e18eddff971149a0b317d6722644e205'),  ('2f2bb87d-43a0-d5f2-e79c-3a119a14c149',0,'100',1,'系统是否','sys_yes_no','系统是否列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'3803400356aa4b4b8bcbb017f54bd11c'),  ('18694739-3f69-7f84-f08f-3a119a14c149',0,'100',1,'通知类型','sys_notice_type','通知类型列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'18ff1f3b4b9c43959a9e0cbf7ba64f76'),  ('69c1eb5e-397e-c9f2-bc76-3a119a14c149',0,'100',1,'通知状态','sys_notice_status','通知状态列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'e6705f305cd14f8199e8b58744fcc52c'),  ('a3b91078-2d38-736e-c0cf-3a119a14c149',0,'100',1,'操作类型','sys_oper_type','操作类型列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'9fce52d2b3fe47d197e2b32a263d6ae0'),  ('794b3a49-e209-d7fd-f0d1-3a119a14c149',0,'100',1,'系统状态','sys_common_status','登录状态列表','2024-03-29 09:51:46.505',NULL,NULL,NULL,'4aedb54c13d148218e573481fe5c8c11') ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.506 +08:00 [DBG] =========Yi-SQL耗时0.4236毫秒=====
+2024-03-29 09:51:46.510 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Menu`   WHERE ( `MenuName` = N'系统管理' )  AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.511 +08:00 [DBG] =========Yi-SQL耗时1.117毫秒=====
+2024-03-29 09:51:46.528 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Menu`  (`Id`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State`,`MenuName`,`MenuType`,`PermissionCode`,`ParentId`,`MenuIcon`,`Router`,`IsLink`,`IsCache`,`IsShow`,`Remark`,`Component`,`Query`) VALUES('e7774576-5191-6bc6-dbc3-3a119a14c154',0,'2024-03-29 09:51:46.516',NULL,NULL,NULL,'100',1,'系统管理','0',NULL,'00000000-0000-0000-0000-000000000000','system','/system',0,0,1,NULL,NULL,NULL),  ('3942eb39-8ecc-1e85-b303-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'91',1,'代码生成','0',NULL,'00000000-0000-0000-0000-000000000000','build','/code',0,0,1,NULL,NULL,NULL),  ('245c9094-15a6-edb4-a496-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'数据表管理','1','code:table:list','3942eb39-8ecc-1e85-b303-3a119a14c155','online','table',0,1,1,NULL,'code/table/index',NULL),  ('437e4ece-729f-a656-78d7-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'99',1,'字段管理','1','code:field:list','3942eb39-8ecc-1e85-b303-3a119a14c155','number','field',0,1,1,NULL,'code/field/index',NULL),  ('3e18e0a7-282c-10af-570d-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'98',1,'模板管理','1','code:template:list','3942eb39-8ecc-1e85-b303-3a119a14c155','documentation','template',0,1,1,NULL,'code/template/index',NULL),  ('d0a5c163-42c2-a315-c30d-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'99',1,'系统监控','0',NULL,'00000000-0000-0000-0000-000000000000','monitor','/monitor',0,0,1,NULL,NULL,NULL),  ('28413b85-cab8-3e85-54ab-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'在线用户','1','monitor:online:list','d0a5c163-42c2-a315-c30d-3a119a14c155','online','online',0,1,1,NULL,'monitor/online/index',NULL),  ('69bbe7c1-4a44-e218-2b20-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'99',1,'缓存列表','1','monitor:cache:list','d0a5c163-42c2-a315-c30d-3a119a14c155','redis-list','cacheList',0,1,1,NULL,'monitor/cache/list',NULL),  ('2cfefe7a-9b5b-1818-eff0-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'98',1,'服务监控','1','monitor:server:list','d0a5c163-42c2-a315-c30d-3a119a14c155','server','server',0,1,1,NULL,'monitor/server/index',NULL),  ('76c26d29-3156-0119-2415-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'97',1,'定时任务','1','monitor:job:list','d0a5c163-42c2-a315-c30d-3a119a14c155','job','job',0,1,1,NULL,'monitor/job/index',NULL),  ('a25cf472-c604-51d9-e769-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'98',1,'系统工具','0',NULL,'00000000-0000-0000-0000-000000000000','tool','/tool',0,0,1,NULL,NULL,NULL),  ('e2f6b388-289a-58b6-68c3-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'接口文档','1',NULL,'a25cf472-c604-51d9-e769-3a119a14c155','list','http://localhost:19001/swagger',1,0,1,NULL,NULL,NULL),  ('7d7bdc79-0d6c-14c6-270a-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'96',1,'ERP(待更新)','0',NULL,'00000000-0000-0000-0000-000000000000','international','/erp',0,0,1,NULL,NULL,NULL),  ('db9ca5ce-8095-d986-057e-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'供应商定义','1','erp:supplier:list','7d7bdc79-0d6c-14c6-270a-3a119a14c155','education','supplier',0,1,1,NULL,'erp/supplier/index',NULL),  ('27a7a67e-3803-2a0f-acb1-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'供应商查询','2','erp:supplier:query','db9ca5ce-8095-d986-057e-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('82f6be1b-bf72-827c-c65b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'供应商新增','2','erp:supplier:add','db9ca5ce-8095-d986-057e-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('4a5bdc56-f29a-32ba-f1b1-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'供应商修改','2','erp:supplier:edit','db9ca5ce-8095-d986-057e-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('e20abc61-06c7-0e65-2a84-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'供应商删除','2','erp:supplier:remove','db9ca5ce-8095-d986-057e-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('1a928218-d0ae-7f28-a75a-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'仓库定义','1','erp:warehouse:list','7d7bdc79-0d6c-14c6-270a-3a119a14c155','education','warehouse',0,1,1,NULL,'erp/warehouse/index',NULL),  ('da4c83d4-5735-265a-08fb-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'仓库查询','2','erp:warehouse:query','1a928218-d0ae-7f28-a75a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d73aa4d8-778d-6b04-ac44-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'仓库新增','2','erp:warehouse:add','1a928218-d0ae-7f28-a75a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('139fbe46-c4a6-02a6-5813-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'仓库修改','2','erp:warehouse:edit','1a928218-d0ae-7f28-a75a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('2dac0535-695d-0f8e-8cfe-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'仓库删除','2','erp:warehouse:remove','1a928218-d0ae-7f28-a75a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('7f66365c-d964-f901-6f24-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'单位定义','1','erp:unit:list','7d7bdc79-0d6c-14c6-270a-3a119a14c155','education','unit',0,1,1,NULL,'erp/unit/index',NULL),  ('2de92d66-a9cf-e58d-e087-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'单位查询','2','erp:unit:query','7f66365c-d964-f901-6f24-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('e64c63de-85f9-ba4e-4b9f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'单位新增','2','erp:unit:add','7f66365c-d964-f901-6f24-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d066d7bd-f7ba-d277-e52b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'单位修改','2','erp:unit:edit','7f66365c-d964-f901-6f24-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('53a64972-13ac-31f8-8904-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'单位删除','2','erp:unit:remove','7f66365c-d964-f901-6f24-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('c8386c14-0dd3-af8d-6a0c-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'物料定义','1','erp:material:list','7d7bdc79-0d6c-14c6-270a-3a119a14c155','education','material',0,1,1,NULL,'erp/material/index',NULL),  ('83e89b74-8a75-bbce-29c6-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'物料查询','2','erp:material:query','c8386c14-0dd3-af8d-6a0c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('3eb9174e-c3ed-a9a1-673e-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'物料新增','2','erp:material:add','c8386c14-0dd3-af8d-6a0c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('91df3031-52d4-5ef9-ca0b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'物料修改','2','erp:material:edit','c8386c14-0dd3-af8d-6a0c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('fa85a842-6c73-f63f-ca36-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'物料删除','2','erp:material:remove','c8386c14-0dd3-af8d-6a0c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('e5c4c239-0707-a8fd-8fb6-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'采购订单','1','erp:purchase:list','7d7bdc79-0d6c-14c6-270a-3a119a14c155','education','purchase',0,1,1,NULL,'erp/purchase/index',NULL),  ('cce5de4d-8b7f-7639-ac03-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'采购订单查询','2','erp:purchase:query','e5c4c239-0707-a8fd-8fb6-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('9dcd77b2-c758-ba48-226b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'采购订单新增','2','erp:purchase:add','e5c4c239-0707-a8fd-8fb6-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('1ecba333-5ecd-f09a-1c3d-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'采购订单修改','2','erp:purchase:edit','e5c4c239-0707-a8fd-8fb6-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('69db823f-5a9b-da73-83bb-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'采购订单删除','2','erp:purchase:remove','e5c4c239-0707-a8fd-8fb6-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('acff8381-b052-d246-e640-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'90',1,'Yi框架','0',NULL,'00000000-0000-0000-0000-000000000000','guide','https://gitee.com/ccnetcore/yi',1,0,1,NULL,NULL,NULL),  ('11e9a93b-1d72-7950-3522-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'101',1,'租户管理','1','system:tenant:list','e7774576-5191-6bc6-dbc3-3a119a14c154','list','tenant',0,1,1,NULL,'system/tenant/index',NULL),  ('aa0d058c-9452-31cc-8f3e-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'租户查询','2','system:tenant:query','11e9a93b-1d72-7950-3522-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('54be8168-3518-6470-c1c5-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'租户新增','2','system:tenant:add','11e9a93b-1d72-7950-3522-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('9deaa4c2-cf1c-8bb2-b69f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'租户修改','2','system:tenant:edit','11e9a93b-1d72-7950-3522-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('c9426e72-83cb-a27f-1d73-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'租户删除','2','system:tenant:remove','11e9a93b-1d72-7950-3522-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('2a9b3abc-f65a-9450-12f7-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'用户管理','1','system:user:list','e7774576-5191-6bc6-dbc3-3a119a14c154','user','user',0,1,1,NULL,'system/user/index',NULL),  ('eff9eddd-ff20-3dca-5611-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'用户查询','2','system:user:query','2a9b3abc-f65a-9450-12f7-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('7658a65d-f066-4f41-2d5f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'用户新增','2','system:user:add','2a9b3abc-f65a-9450-12f7-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('bff847bc-4b41-c1df-3672-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'用户修改','2','system:user:edit','2a9b3abc-f65a-9450-12f7-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('9d83aa41-d88b-3ad9-cb74-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'用户删除','2','system:user:remove','2a9b3abc-f65a-9450-12f7-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('0c95d789-2f4f-9847-0225-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'99',1,'角色管理','1','system:role:list','e7774576-5191-6bc6-dbc3-3a119a14c154','peoples','role',0,1,1,NULL,'system/role/index',NULL),  ('cef40c11-698b-3b17-b82a-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'角色查询','2','system:role:query','0c95d789-2f4f-9847-0225-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d0d124bf-8fdf-9ce9-fdc6-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'角色新增','2','system:role:add','0c95d789-2f4f-9847-0225-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('abf858ee-7ea3-9dc2-595f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'角色修改','2','system:role:edit','0c95d789-2f4f-9847-0225-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d34f1920-f6b8-a4a3-b08f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'角色删除','2','system:role:remove','0c95d789-2f4f-9847-0225-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('c268306b-7648-9769-9c76-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'98',1,'菜单管理','1','system:menu:list','e7774576-5191-6bc6-dbc3-3a119a14c154','tree-table','menu',0,1,1,NULL,'system/menu/index',NULL),  ('bc8fd9ad-a9d6-37f9-dfab-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'菜单查询','2','system:menu:query','c268306b-7648-9769-9c76-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('dd7eb031-809d-3b8a-7602-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'菜单新增','2','system:menu:add','c268306b-7648-9769-9c76-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('e1bbccc1-2b1a-6d07-263b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'菜单修改','2','system:menu:edit','c268306b-7648-9769-9c76-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('bdac9f09-f242-4a16-0ae9-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'菜单删除','2','system:menu:remove','c268306b-7648-9769-9c76-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('a64b053e-1e71-457e-37df-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'97',1,'部门管理','1','system:dept:list','e7774576-5191-6bc6-dbc3-3a119a14c154','tree','dept',0,1,1,NULL,'system/dept/index',NULL),  ('ed9b0829-fd79-3f15-7c98-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'部门查询','2','system:dept:query','a64b053e-1e71-457e-37df-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('172b01cb-14c2-ae41-4cb6-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'部门新增','2','system:dept:add','a64b053e-1e71-457e-37df-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('4dcd7ebc-dc4e-823e-726b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'部门修改','2','system:dept:edit','a64b053e-1e71-457e-37df-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('b0bdbac4-51db-7c2b-a4a0-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'部门删除','2','system:dept:remove','a64b053e-1e71-457e-37df-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('08a13e61-f3c8-237f-888a-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'96',1,'岗位管理','1','system:post:list','e7774576-5191-6bc6-dbc3-3a119a14c154','post','post',0,1,1,NULL,'system/post/index',NULL),  ('5b822499-9a7e-7b03-3848-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'岗位查询','2','system:post:query','08a13e61-f3c8-237f-888a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('f9fc7800-2ad9-ce51-3c54-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'岗位新增','2','system:post:add','08a13e61-f3c8-237f-888a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('a3cd1225-ca33-57ce-e03b-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'岗位修改','2','system:post:edit','08a13e61-f3c8-237f-888a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('b9b017ef-c87d-b50b-4f35-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'岗位删除','2','system:post:remove','08a13e61-f3c8-237f-888a-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('a9bb003a-59de-130c-ade1-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'95',1,'字典管理','1','system:dict:list','e7774576-5191-6bc6-dbc3-3a119a14c154','dict','dict',0,1,1,NULL,'system/dict/index',NULL),  ('3689fa70-8494-0171-ed7a-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'字典查询','2','system:dict:query','a9bb003a-59de-130c-ade1-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('73be6af2-43ec-062c-056d-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'字典新增','2','system:dict:add','a9bb003a-59de-130c-ade1-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('f5f74ce9-055c-5118-5e77-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'字典修改','2','system:dict:edit','a9bb003a-59de-130c-ade1-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d2a9b5e8-3bf9-4160-d246-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'字典删除','2','system:dict:remove','a9bb003a-59de-130c-ade1-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('f9c14857-0c52-5d71-4925-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'94',1,'参数设置','1','system:config:list','e7774576-5191-6bc6-dbc3-3a119a14c154','edit','config',0,1,1,NULL,'system/config/index',NULL),  ('7e23ecd3-c446-2294-6d20-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'参数查询','2','system:config:query','f9c14857-0c52-5d71-4925-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('5777ba2a-49e4-6b33-da4f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'参数新增','2','system:config:add','f9c14857-0c52-5d71-4925-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('135586af-8185-1f59-e887-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'参数修改','2','system:config:edit','f9c14857-0c52-5d71-4925-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('16c0363e-c181-b0d5-4d78-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'参数删除','2','system:config:remove','f9c14857-0c52-5d71-4925-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('d1c04500-99f2-fb19-652c-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'93',1,'通知公告','1','system:notice:list','e7774576-5191-6bc6-dbc3-3a119a14c154','message','notice',0,1,1,NULL,'system/notice/index',NULL),  ('9e89cf27-1b81-18e4-86e9-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'通知查询','2','system:notice:query','d1c04500-99f2-fb19-652c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('13ba61db-caf3-cf04-bde8-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'通知新增','2','system:notice:add','d1c04500-99f2-fb19-652c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('21f5d09d-ada7-ef81-4f2d-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'通知修改','2','system:notice:edit','d1c04500-99f2-fb19-652c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('3ad33894-035f-2f69-e3cb-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'通知删除','2','system:notice:remove','d1c04500-99f2-fb19-652c-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('b48a50b8-c508-3c16-e143-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'92',1,'日志管理','0',NULL,'e7774576-5191-6bc6-dbc3-3a119a14c154','log','log',0,0,1,NULL,NULL,NULL),  ('48559403-18c0-6096-6e59-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'操作日志','1','monitor:operlog:list','b48a50b8-c508-3c16-e143-3a119a14c155','form','operlog',0,1,1,NULL,'monitor/operlog/index',NULL),  ('842ec999-0de6-6fee-2d74-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'操作查询','2','monitor:operlog:query','48559403-18c0-6096-6e59-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('60e81a55-9438-b043-9aac-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'操作删除','2','monitor:operlog:remove','48559403-18c0-6096-6e59-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('2e53aec9-4ba9-1c16-c93f-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'登录日志','1','monitor:logininfor:list','b48a50b8-c508-3c16-e143-3a119a14c155','logininfor','logininfor',0,1,1,NULL,'monitor/logininfor/index',NULL),  ('3847ef84-973d-111f-8026-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'登录查询','2','monitor:logininfor:query','2e53aec9-4ba9-1c16-c93f-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL),  ('b926ff6f-cbe3-8d99-08a9-3a119a14c155',0,'2024-03-29 09:51:46.517',NULL,NULL,NULL,'100',1,'登录删除','2','monitor:logininfor:remove','2e53aec9-4ba9-1c16-c93f-3a119a14c155',NULL,NULL,0,0,1,NULL,NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.529 +08:00 [DBG] =========Yi-SQL耗时1.5325毫秒=====
+2024-03-29 09:51:46.531 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Post`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.531 +08:00 [DBG] =========Yi-SQL耗时0.1136毫秒=====
+2024-03-29 09:51:46.534 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Post`  (`Id`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State`,`PostCode`,`PostName`,`Remark`) VALUES('e830d835-ecf5-0f17-e3c3-3a119a14c164',0,'2024-03-29 09:51:46.532',NULL,NULL,NULL,'100',1,'ceo','董事长',NULL),  ('24ef41c3-8854-45df-acc1-3a119a14c165',0,'2024-03-29 09:51:46.532',NULL,NULL,NULL,'100',1,'se','项目经理',NULL),  ('15b3a403-bc9f-ac54-3452-3a119a14c165',0,'2024-03-29 09:51:46.532',NULL,NULL,NULL,'100',1,'hr','人力资源',NULL),  ('40533df9-2345-3f6b-bf4a-3a119a14c166',0,'2024-03-29 09:51:46.532',NULL,NULL,NULL,'100',1,'user','普通员工',NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.534 +08:00 [DBG] =========Yi-SQL耗时0.2299毫秒=====
+2024-03-29 09:51:46.538 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Role`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.538 +08:00 [DBG] =========Yi-SQL耗时0.4169毫秒=====
+2024-03-29 09:51:46.542 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Role`  (`Id`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`RoleName`,`RoleCode`,`Remark`,`DataScope`,`State`) VALUES('139ea5d7-b6a3-2ee3-d5db-3a119a14c16c',0,'2024-03-29 09:51:46.539',NULL,NULL,NULL,'999','管理员','admin','管理员','0',1),  ('f7324be2-5f20-cd42-e7f6-3a119a14c16d',0,'2024-03-29 09:51:46.539',NULL,NULL,NULL,'1','测试角色','test','测试用的角色','0',1),  ('825a7a31-a28d-0b1e-a7b7-3a119a14c16d',0,'2024-03-29 09:51:46.539',NULL,NULL,NULL,'1','普通角色','common','正常用户','0',1),  ('b24b236b-ef34-3382-857f-3a119a14c16d',0,'2024-03-29 09:51:46.539',NULL,NULL,NULL,'1','默认角色','default','可简单浏览','0',1) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.542 +08:00 [DBG] =========Yi-SQL耗时0.2704毫秒=====
+2024-03-29 09:51:46.546 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `User`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.546 +08:00 [DBG] =========Yi-SQL耗时0.144毫秒=====
+2024-03-29 09:51:46.557 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `User`  (`Id`,`IsDeleted`,`Name`,`Age`,`UserName`,`Password`,`Salt`,`Icon`,`Nick`,`Email`,`Ip`,`Address`,`Phone`,`Introduction`,`Remark`,`Sex`,`DeptId`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State`) VALUES('d1c28168-8d08-38a8-2758-3a119a14c17a',0,'大橙子','20','cc','3Cb1w2Xz1FimdlTs14DKFf39JIMFwufD5vdzOtVvmbQHyPTSvt1eGYNKM0-PsUBF_7MkQS6vcMXRxTxQ0Ij4hA','HQHriZbnqlp8lCl6H8KOHw==',NULL,'橙子','454313500@qq.com',NULL,'深圳','13800000000','还有谁？','描述是什么呢？','0',NULL,'2024-03-29 09:51:46.547',NULL,NULL,NULL,'999',1),  ('1a99a5b6-ac83-1810-6551-3a119a14c17c',0,'大测试','18','test','7-5d0mKPYXaP4EmVpjPzNju5HluAhZ0BRpKIGW07YyGMA6ZL5pUf8lqXLF2ligoebCtfpBSrXq9uepg6a25pZQ','jEZ/UlE6AGXxY5icqcR5RQ==',NULL,'测试','454313500@qq.com',NULL,'深圳','15900000000','还有我！','我没有描述！','1',NULL,'2024-03-29 09:51:46.554',NULL,NULL,NULL,'1',1),  ('c00802ab-536a-fe9c-2038-3a119a14c17d',0,'游客','18','guest','XSvsfz8iZNvklYFnKzg9rAQGOlBvaiVnZMYGQWmIPTkpZGjoYcIEbZxRymTASS7vee770K4vnvKW9Laknpn5og','pY423m2DSBpTJvCkmsICkw==',NULL,'测试','454313500@qq.com',NULL,'深圳','15900000000','临时游客','懒得创账号','1',NULL,'2024-03-29 09:51:46.554',NULL,NULL,NULL,'1',1) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.558 +08:00 [DBG] =========Yi-SQL耗时0.4121毫秒=====
+2024-03-29 09:51:46.560 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Banner`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.560 +08:00 [DBG] =========Yi-SQL耗时0.1729毫秒=====
+2024-03-29 09:51:46.562 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Banner`  (`Id`,`Name`,`Logo`,`Color`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`) VALUES('1a0b8a22-6b82-a183-51e4-3a119a14c181','欢迎','https://i.miji.bid/2023/12/15/e6478d5d15a4b941077e336790c414f6.png','',0,'2024-03-29 09:51:46.561',NULL,NULL,NULL),  ('da088d39-9c53-911f-a795-3a119a14c182','前端','https://i.miji.bid/2023/12/15/07e9291c9311889a31a2b433d4decca0.jpeg','',0,'2024-03-29 09:51:46.562',NULL,NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.562 +08:00 [DBG] =========Yi-SQL耗时0.1818毫秒=====
+2024-03-29 09:51:46.563 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `DictionaryType`   WHERE ( `DictType` = N'bbs_type_lable' )  AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.563 +08:00 [DBG] =========Yi-SQL耗时0.1008毫秒=====
+2024-03-29 09:51:46.565 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `DictionaryType`  
+           (`Id`,`IsDeleted`,`OrderNum`,`State`,`DictName`,`DictType`,`Remark`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`ConcurrencyStamp`)
+     VALUES
+           (N'201f429d-e055-ae5c-2204-3a119a14c184',0,200,1,N'BBS类型标签',N'bbs_type_lable',N'BBS类型标签',CAST('2024-03-29 09:51:46.564' AS DATETIME),null,null,null,N'80a10ec42cf5478aae1c968e5c7af03e') ;
+===============================
+
+2024-03-29 09:51:46.566 +08:00 [DBG] =========Yi-SQL耗时1.7024毫秒=====
+2024-03-29 09:51:46.568 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Dictionary`  (`Id`,`IsDeleted`,`OrderNum`,`State`,`Remark`,`ListClass`,`CssClass`,`DictType`,`DictLabel`,`DictValue`,`IsDefault`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`) VALUES('77be9cf4-fc19-0276-1643-3a119a14c187',0,'100',1,'',NULL,NULL,'bbs_type_lable','前端','0',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('9db4a82d-2620-fe3f-3746-3a119a14c187',0,'99',1,'',NULL,NULL,'bbs_type_lable','后端','1',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('8173e879-07cc-b055-f143-3a119a14c187',0,'98',1,'',NULL,NULL,'bbs_type_lable','运维','2',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('2e91ba24-42df-2a6d-02f0-3a119a14c187',0,'97',1,'',NULL,NULL,'bbs_type_lable','测试','3',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('0ab3fc26-d76a-aa90-a3b2-3a119a14c187',0,'96',1,'',NULL,NULL,'bbs_type_lable','UI','4',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('5e4bb055-8252-aa86-abea-3a119a14c187',0,'95',1,'',NULL,NULL,'bbs_type_lable','产品','5',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('0197294b-2ac3-94b3-5fd7-3a119a14c187',0,'94',1,'',NULL,NULL,'bbs_type_lable','项目','6',0,'2024-03-29 09:51:46.567',NULL,NULL,NULL),  ('794048c2-a71d-64ac-12b4-3a119a14c188',0,'93',1,'',NULL,NULL,'bbs_type_lable','C#','7',0,'2024-03-29 09:51:46.568',NULL,NULL,NULL),  ('7702f38f-11eb-6be2-8d50-3a119a14c188',0,'92',1,'',NULL,NULL,'bbs_type_lable','.Net','8',0,'2024-03-29 09:51:46.568',NULL,NULL,NULL),  ('9ba031d3-1049-697c-3a14-3a119a14c188',0,'91',1,'',NULL,NULL,'bbs_type_lable','.NetCore','9',0,'2024-03-29 09:51:46.568',NULL,NULL,NULL),  ('05867c25-441b-f99f-748c-3a119a14c188',0,'90',1,'',NULL,NULL,'bbs_type_lable','Asp.NetCore','10',0,'2024-03-29 09:51:46.568',NULL,NULL,NULL),  ('17217d7e-4100-b50c-a5c0-3a119a14c188',0,'89',1,'',NULL,NULL,'bbs_type_lable','Abp.vNext','11',0,'2024-03-29 09:51:46.568',NULL,NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.568 +08:00 [DBG] =========Yi-SQL耗时0.3475毫秒=====
+2024-03-29 09:51:46.573 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Menu`   WHERE ( `MenuName` = N'BBS' )  AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.573 +08:00 [DBG] =========Yi-SQL耗时0.2303毫秒=====
+2024-03-29 09:51:46.574 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Menu`  (`Id`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State`,`MenuName`,`MenuType`,`PermissionCode`,`ParentId`,`MenuIcon`,`Router`,`IsLink`,`IsCache`,`IsShow`,`Remark`,`Component`,`Query`) VALUES('f4d699b2-f11c-be72-37b4-3a119a14c18d',0,'2024-03-29 09:51:46.574',NULL,NULL,NULL,'91',0,'BBS','0',NULL,'00000000-0000-0000-0000-000000000000','monitor','/bbs',0,0,1,NULL,NULL,NULL),  ('b604b926-c656-575e-ebf0-3a119a14c18e',0,'2024-03-29 09:51:46.574',NULL,NULL,NULL,'100',0,'板块管理','1','bbs:plate:list','f4d699b2-f11c-be72-37b4-3a119a14c18d','component','plate',0,1,1,NULL,'bbs/plate/index',NULL),  ('d7899653-24e3-6c63-4e08-3a119a14c18e',0,'2024-03-29 09:51:46.574',NULL,NULL,NULL,'99',0,'文章管理','1','bbs:article:list','f4d699b2-f11c-be72-37b4-3a119a14c18d','documentation','article',0,1,1,NULL,'bbs/article/index',NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.575 +08:00 [DBG] =========Yi-SQL耗时0.421毫秒=====
+2024-03-29 09:51:46.578 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `BbsUserExtraInfo`   WHERE ( 1 = 1 )    LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.578 +08:00 [DBG] =========Yi-SQL耗时0.2095毫秒=====
+2024-03-29 09:51:46.583 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT `Id`,`IsDeleted`,`Name`,`Age`,`UserName`,`Password`,`Salt`,`Icon`,`Nick`,`Email`,`Ip`,`Address`,`Phone`,`Introduction`,`Remark`,`Sex`,`DeptId`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`,`OrderNum`,`State` FROM `User`  WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 ) 
+===============================
+
+2024-03-29 09:51:46.583 +08:00 [DBG] =========Yi-SQL耗时0.476毫秒=====
+2024-03-29 09:51:46.591 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `BbsUserExtraInfo`  (`Id`,`UserId`,`UserLimit`,`Level`,`Money`,`Experience`,`DiscussNumber`,`CommentNumber`,`AgreeNumber`) VALUES('31498ea1-07b8-39df-3346-3a119a14c19d','d1c28168-8d08-38a8-2758-3a119a14c17a','0','1','0','0','0','0','0'),  ('3bcbc61b-c212-fd8f-5f42-3a119a14c19e','1a99a5b6-ac83-1810-6551-3a119a14c17c','0','1','0','0','0','0','0'),  ('c4d515f2-e656-b001-ca6e-3a119a14c19f','c00802ab-536a-fe9c-2038-3a119a14c17d','0','1','0','0','0','0','0') ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.591 +08:00 [DBG] =========Yi-SQL耗时0.2557毫秒=====
+2024-03-29 09:51:46.593 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Config`   WHERE ( 1 = 1 )   AND ( `IsDeleted` = 0 )   LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.594 +08:00 [DBG] =========Yi-SQL耗时0.1165毫秒=====
+2024-03-29 09:51:46.596 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Config`  (`Id`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`OrderNum`,`Remark`,`IsDeleted`,`CreationTime`,`CreatorId`,`LastModifierId`,`LastModificationTime`) VALUES('b70dea41-d5c1-9386-4b15-3a119a14c1a2','站点名称','bbs.site.name','意社区',NULL,'0',NULL,0,'2024-03-29 09:51:46.595',NULL,NULL,NULL),  ('64d4bd02-7efd-0ea4-75ad-3a119a14c1a3','站点作者','bbs.site.author','橙子',NULL,'0',NULL,0,'2024-03-29 09:51:46.595',NULL,NULL,NULL),  ('0c6c5fc1-ac8d-622b-a8f7-3a119a14c1a4','站点Icp备案','bbs.site.icp','赣ICP备20008025号',NULL,'0',NULL,0,'2024-03-29 09:51:46.596',NULL,NULL,NULL),  ('d05bc8f2-9ffa-17ba-ea56-3a119a14c1a4','站点底部信息','bbs.site.bottom','你好世界',NULL,'0',NULL,0,'2024-03-29 09:51:46.596',NULL,NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.596 +08:00 [DBG] =========Yi-SQL耗时0.1896毫秒=====
+2024-03-29 09:51:46.599 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `Level`   WHERE ( 1 = 1 )    LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.599 +08:00 [DBG] =========Yi-SQL耗时0.1845毫秒=====
+2024-03-29 09:51:46.601 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `Level`  (`Id`,`CurrentLevel`,`MinExperience`,`Name`,`Nick`,`Logo`) VALUES('62fa9817-a20d-864c-9382-3a119a14c1a8','1','10','小白',NULL,NULL),  ('6878990d-16e0-9261-4cd8-3a119a14c1a8','2','30','中白',NULL,NULL),  ('427c83b5-aa97-1fb5-579c-3a119a14c1a9','3','100','大白',NULL,NULL),  ('811b394c-ad7d-7757-d34c-3a119a14c1a9','4','300','精英',NULL,NULL),  ('f1013cbe-2c00-d931-222c-3a119a14c1a9','5','600','熟练',NULL,NULL),  ('53f37342-0ed2-b655-5fb6-3a119a14c1a9','6','1000','高手',NULL,NULL),  ('45a3b879-a1b2-7bdb-6138-3a119a14c1a9','7','1500','老手',NULL,NULL),  ('7ce006c4-da97-7392-5cb4-3a119a14c1a9','8','2000','大佬',NULL,NULL),  ('191e9453-ff19-1a6c-265c-3a119a14c1a9','9','2500','巨佬',NULL,NULL),  ('8e2ece32-b4ad-1684-851c-3a119a14c1a9','10','3000','大神',NULL,NULL) ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.601 +08:00 [DBG] =========Yi-SQL耗时0.2209毫秒=====
+2024-03-29 09:51:46.603 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT 1 FROM `YiTemplate`   WHERE ( 1 = 1 )    LIMIT 0,1
+===============================
+
+2024-03-29 09:51:46.603 +08:00 [DBG] =========Yi-SQL耗时0.0929毫秒=====
+2024-03-29 09:51:46.606 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+INSERT INTO `YiTemplate`  (`Id`,`TemplateStr`,`BuildPath`,`Name`,`Remarks`) VALUES('5303599d-984c-43e4-6198-3a119a14c1ac','using SqlSugar;
+using lo.Abp;
+using lo.Abp.Auditing;
+using lo.Abp.Domain.Entities;
+using Yi.Framework.Core.Data;
+
+namespace Yi.Framework.Rbac.Domain.Entities
+{
+    /// <summary>
+    /// 实体
+    /// </summary>
+    [SugarTable("@Model")]
+    public class @ModelEntity : Entity<Guid>
+    {
+@field
+    }
+}
+','D:\code\Entities\@ModelEntity.cs','Entity','实体'),  ('c980a0e9-03c6-bb3a-b978-3a119a14c1ad','using Yi.Framework.Ddd;
+using Yi.Framework.Ddd.Application.Contracts;
+
+namespace Yi.Framework.Rbac.Application.Contracts.Dtos.@Model
+{
+    /// <summary>
+    /// 查询参数
+    /// </summary>
+    public class @ModelGetListInput : PagedAllResultRequestDto
+    {
+@field
+    }
+}
+','D:\code\Dtos\@Model\@ModelGetListInput.cs','GetListInput','列表查询参数'),  ('d774a072-1fe5-83b0-d396-3a119a14c1ad','using lo.Abp.Application.Dtos;
+
+namespace Yi.Framework.Rbac.Application.Contracts.Dtos.@Model
+{
+    public class @ModelGetListOutputDto : EntityDto<Guid>
+    {
+@field
+    }
+}
+','D:\code\Dtos\@Model\@ModelGetListOutputDto.cs','GetListOutputDto','列表返回dto'),  ('d16bba1d-c6b9-d53c-a0bb-3a119a14c1ad','using lo.Abp.Application.Dtos;
+
+namespace Yi.Framework.Rbac.Application.Contracts.Dtos.@Model
+{
+    public class @ModelGetOutputDto : EntityDto<Guid>
+    {
+@field
+    }
+}
+','D:\code\Dtos\@Model\@ModelGetOutputDto.cs','GetOutputDto','单返回dto'),  ('8dc56daa-eb9c-ae85-d314-3a119a14c1ad','namespace Yi.Framework.Rbac.Application.Contracts.Dtos.@Model
+{
+    public class @ModelUpdateInput
+    {
+@field
+    }
+}
+','D:\code\Dtos\@Model\@ModelUpdateInput.cs','UpdateInput','更新输入'),  ('20450203-63df-907b-d0ad-3a119a14c1ad','namespace Yi.Framework.Rbac.Application.Contracts.Dtos.@Model
+{
+    /// <summary>
+    /// @Model输入创建对象
+    /// </summary>
+    public class @ModelCreateInput
+    {
+@field
+    }
+}
+','D:\code\Dtos\@Model\@ModelCreateInput.cs','CreateInput','创建dto'),  ('349a96fa-7541-cac6-ba3c-3a119a14c1ad','using lo.Abp.Application.Services;
+using Yi.Framework.Ddd.Application.Contracts;
+using Yi.Framework.Rbac.Application.Contracts.Dtos.@Model;
+
+namespace Yi.Framework.Rbac.Application.Contracts.IServices
+{
+    /// <summary>
+    /// @Model服务抽象
+    /// </summary>
+    public interface I@ModelService : IYiCrudAppService<@ModelGetOutputDto, @ModelGetListOutputDto, Guid, @ModelGetListInput, @ModelCreateInput, @ModelUpdateInput>
+    {
+
+    }
+}
+','D:\code\IServices\I@ModelService.cs','IServices','应用服务抽象'),  ('ae84dd40-bfc6-4d30-7743-3a119a14c1ad','using SqlSugar;
+using lo.Abp.Application.Dtos;
+using lo.Abp.Application.Services;
+using Yi.Framework.Ddd.Application;
+using Yi.Framework.Rbac.Application.Contracts.Dtos.@Model;
+using Yi.Framework.Rbac.Application.Contracts.IServices;
+using Yi.Framework.Rbac.Domain.Entities;
+using Yi.Framework.SqlSugarCore.Abstractions;
+
+namespace Yi.Framework.Rbac.Application.Services
+{
+    /// <summary>
+    /// @Model服务实现
+    /// </summary>
+    public class @ModelService : YiCrudAppService<@ModelEntity, @ModelGetOutputDto, @ModelGetListOutputDto, Guid, @ModelGetListInput, @ModelCreateInput, @ModelUpdateInput>,
+       I@ModelService
+    {
+        private ISqlSugarRepository<@ModelEntity, Guid> _repository;
+        public @ModelService(ISqlSugarRepository<@ModelEntity, Guid> repository) : base(repository)
+        {
+            _repository = repository;
+        }
+
+        /// <summary>
+        /// 多查
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public override async Task<PagedResultDto<@ModelGetListOutputDto>> GetListAsync(@ModelGetListInput input)
+        {
+            RefAsync<int> total = 0;
+
+            var entities = await _repository._DbQueryable.WhereIF(!string.IsNullOrEmpty(input.@ModelKey), x => x.@ModelKey.Contains(input.@ModelKey!))
+                          .WhereIF(!string.IsNullOrEmpty(input.@ModelName), x => x.@ModelName!.Contains(input.@ModelName!))
+                          .WhereIF(input.StartTime is not null && input.EndTime is not null, x => x.CreationTime >= input.StartTime && x.CreationTime <= input.EndTime)
+                          .ToPageListAsync(input.SkipCount, input.MaxResultCount, total);
+            return new PagedResultDto<@ModelGetListOutputDto>(total, await MapToGetListOutputDtosAsync(entities));
+        }
+    }
+}
+','D:\code\Services\@ModelService.cs','Service','应用服务'),  ('1da1679f-1dd9-edab-1465-3a119a14c1ad','import request from ''@/utils/request''
+
+// 分页查询
+export function listData(query) {
+  return request({
+    url: ''/@model'',
+    method: ''get'',
+    params: query
+  })
+}
+
+// id查询
+export function getData(id) {
+  return request({
+    url: `/@model/${id}`,
+    method: ''get''
+  })
+}
+
+// 新增
+export function addData(data) {
+  return request({
+    url: ''/@model'',
+    method: ''post'',
+    data: data
+  })
+}
+
+// 修改
+export function updateData(id,data) {
+  return request({
+    url: `/@model/${id}`,
+    method: ''put'',
+    data: data
+  })
+}
+
+// 删除
+export function delData(ids) {
+  return request({
+    url: `/@model`,
+    method: ''delete'',
+    params:{id:ids}
+  })
+}
+','D:\code\Api\@ModelApi.vue','api','前端api') ;SELECT LAST_INSERT_ROWID();
+
+===============================
+
+2024-03-29 09:51:46.606 +08:00 [DBG] =========Yi-SQL耗时0.4269毫秒=====
+2024-03-29 09:51:46.624 +08:00 [DBG] 耗时-836ms,已加载模块-Yi.Framework.SqlSugarCore
+2024-03-29 09:51:46.691 +08:00 [DBG] 耗时-63ms,已加载模块-Volo.Abp.BackgroundWorkers
+2024-03-29 09:51:46.694 +08:00 [DBG] 耗时-3ms,已加载模块-Volo.Abp.EventBus
+2024-03-29 09:51:46.709 +08:00 [DBG] 耗时-15ms,已加载模块-Volo.Abp.AspNetCore
+2024-03-29 09:51:46.714 +08:00 [DBG] 耗时-4ms,已加载模块-Volo.Abp.Quartz
+2024-03-29 09:51:46.741 +08:00 [DBG] 耗时-26ms,已加载模块-Volo.Abp.BackgroundWorkers.Quartz
+2024-03-29 09:51:46.745 +08:00 [DBG] 耗时-3ms,已加载模块-Volo.Abp.AspNetCore.Mvc
+2024-03-29 09:51:47.049 +08:00 [INF] User profile is available. Using 'C:\Users\cm006238\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 09:51:47.229 +08:00 [DBG] 耗时-484ms,已加载模块-Yi.Abp.Web
+2024-03-29 09:51:47.243 +08:00 [INF] 正在初始化【BBS-等级数据】......
+2024-03-29 09:51:47.256 +08:00 [DBG] 
+==========Yi-SQL执行:==========
+SELECT `Id`,`CurrentLevel`,`MinExperience`,`Name`,`Nick`,`Logo` FROM `Level`  
+===============================
+
+2024-03-29 09:51:47.257 +08:00 [DBG] =========Yi-SQL耗时0.2894毫秒=====
+2024-03-29 09:51:47.364 +08:00 [INF] 已完成初始化【BBS-等级数据】
+2024-03-29 09:51:47.364 +08:00 [DBG] 耗时-133ms,已加载模块-Yi.Framework.Bbs.Domain
+2024-03-29 09:51:47.365 +08:00 [INF] ==========【372】个模块初始化执行完毕，总耗时【1568ms】==========
+2024-03-29 09:51:47.575 +08:00 [INF] Now listening on: http://[::]:19001
+2024-03-29 09:51:47.575 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 09:51:47.575 +08:00 [INF] Hosting environment: Development
+2024-03-29 09:51:47.575 +08:00 [INF] Content root path: D:\vs_space\Yi\Yi.Abp.Net8\src\Yi.Abp.Web
+2024-03-29 09:51:48.888 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-29 09:51:48.888 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-29 09:51:48.898 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-29 09:51:49.029 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'

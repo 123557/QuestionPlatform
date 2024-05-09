@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Abp.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Abp.Application.Contracts.Dtos.Question.QuestionCreateInput">
+            <summary>
+            Question输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Abp.Application.Contracts.Dtos.Question.QuestionGetListInput">
+            <summary>
+            查询参数
+            </summary>
+        </member>
+        <member name="T:Yi.Abp.Application.Contracts.IServices.IQuestionService">
+            <summary>
+            Question服务抽象
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,133 @@
+2024-04-25 10:32:41.527 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 10:32:49.037 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 10:32:52.527 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 10:33:28.351 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 10:33:31.719 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 10:33:37.665 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/test/current-user" for actions - Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application),Yi.Abp.Application.Services.TestService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-25 11:10:47.634 +08:00 [FTL] Yi框架-Abp.vNext，爆炸！
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor phase of the module Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule, Yi.Framework.SqlSugarCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null: QuestionEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "create_name" of relation "question" contains null values. See the inner exception for details.
+ ---> System.Exception: QuestionEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "create_name" of relation "question" contains null values
+   at SqlSugar.CodeFirstProvider.InitTables(Type[] entityTypes)
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.CodeFirst(IServiceProvider service) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 100
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.OnPreApplicationInitializationAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 73
+   at Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 39
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 51
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in D:\vs_space\Yi\Yi.Abp.Net8\src\Yi.Abp.Web\Program.cs:line 37
+2024-04-25 11:11:49.019 +08:00 [FTL] Yi框架-Abp.vNext，爆炸！
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor phase of the module Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule, Yi.Framework.SqlSugarCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null: QuestionEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "create_name" of relation "question" contains null values. See the inner exception for details.
+ ---> System.Exception: QuestionEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "create_name" of relation "question" contains null values
+   at SqlSugar.CodeFirstProvider.InitTables(Type[] entityTypes)
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.CodeFirst(IServiceProvider service) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 100
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.OnPreApplicationInitializationAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 73
+   at Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 39
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 51
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in D:\vs_space\Yi\Yi.Abp.Net8\src\Yi.Abp.Web\Program.cs:line 37
+2024-04-25 11:28:31.051 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/app/hello-world" for actions - Yi.Abp.Application.Services.TestService.GetHelloWorld (Yi.Abp.Application),Yi.Abp.Application.Services.UserService.GetCurrentUser (Yi.Abp.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Yi.Framework.Rbac.Domain.Authorization.RefreshTokenMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Domain\Authorization\RefreshTokenMiddleware.cs:line 47
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

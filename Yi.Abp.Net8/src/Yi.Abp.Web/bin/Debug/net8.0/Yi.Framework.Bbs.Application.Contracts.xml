@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Bbs.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Article.ArticleCreateInputVo">
+            <summary>
+            Article输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Article.ArticleImprotDto.DiscussId">
+            <summary>
+            主题id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.BankCardDto.FulltermTime">
+            <summary>
+            满期限时间，可空
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.BankCardDto.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.BankCardDto.StorageMoney">
+            <summary>
+            当前存储的钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.BankCardDto.MaxStorageMoney">
+            <summary>
+            最大可存储的钱钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.BankCardDto.BankCardState">
+            <summary>
+            银行卡状态
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.InterestRecordsDto.Value">
+            <summary>
+            当前汇率值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Bank.InterestRecordsDto.IsFluctuate">
+            <summary>
+            是否波动期
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Banner.BannerCreateInputVo">
+            <summary>
+            Banner输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserAnalyseGetOutput.RegisterNumber">
+            <summary>
+            注册人数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserAnalyseGetOutput.OnlineNumber">
+            <summary>
+            在线人数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserAnalyseGetOutput.YesterdayNewUser">
+            <summary>
+            昨天新增用户
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetListOutputDto.Level">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetListOutputDto.UserLimit">
+            <summary>
+            用户限制
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetListOutputDto.Money">
+            <summary>
+            钱钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetListOutputDto.Experience">
+            <summary>
+            经验
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetListOutputDto.LevelName">
+            <summary>
+            用户等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetOutputDto.Level">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.BbsUser.BbsUserGetOutputDto.UserLimit">
+            <summary>
+            用户限制
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo">
+            <summary>
+            Comment输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo.Content">
+            <summary>
+            评论id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo.DiscussId">
+            <summary>
+            主题id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo.RootId">
+            <summary>
+            第一层评论id，第一层为0
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo.ParentId">
+            <summary>
+            被回复的CommentId，第一层为0
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListOutputDto">
+            <summary>
+            评论多反
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListOutputDto.DiscussId">
+            <summary>
+            主题id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListOutputDto.CreateUser">
+            <summary>
+            用户,评论人用户信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListOutputDto.CommentedUser">
+            <summary>
+            被评论的用户信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListOutputDto.Children">
+            <summary>
+            这个不是一个树形，而是存在一个二维数组，该Children只有在顶级时候，只有一层
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetOutputDto">
+            <summary>
+            单返回，返回单条评论即可
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetOutputDto.User">
+            <summary>
+            用户id联表为用户对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetOutputDto.RootId">
+            <summary>
+            根节点的评论id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetOutputDto.ParentId">
+            <summary>
+            被回复的CommentId
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussCreateInputVo">
+            <summary>
+            Discuss输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussCreateInputVo.PermissionType">
+            <summary>
+            默认公开
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussCreateInputVo.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussCreateInputVo.IsDisableCreateComment">
+            <summary>
+            是否禁止评论创建功能
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetListInputVo.UserName">
+            <summary>
+            创建者的用户名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetListOutputDto.IsDisableCreateComment">
+            <summary>
+            是否禁止评论创建功能
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetListOutputDto.IsAgree">
+            <summary>
+            是否已点赞，默认未登录不点赞
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetListOutputDto.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetOutputDto.IsDisableCreateComment">
+            <summary>
+            是否禁止评论创建功能
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetOutputDto.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussUpdateInputVo.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussUpdateInputVo.IsDisableCreateComment">
+            <summary>
+            是否禁止评论创建功能
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Integral.SignInDto.SignInItem">
+            <summary>
+            签到数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Integral.SignInDto.CurrentContinuousNumber">
+            <summary>
+            当前连续签到次数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Integral.SignInItemDto.CreationTime">
+            <summary>
+            签到时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelGetListInputDto.MinLevel">
+            <summary>
+            当前等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelGetListInputDto.Name">
+            <summary>
+            等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelOutputDto.CurrentLevel">
+            <summary>
+            当前等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelOutputDto.MinExperience">
+            <summary>
+            最小所需经验值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelOutputDto.Name">
+            <summary>
+            等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelOutputDto.Nick">
+            <summary>
+            等级称号
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelOutputDto.Logo">
+            <summary>
+            等候logo
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.MyType.MyTypeCreateInputVo">
+            <summary>
+            Label输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.Dtos.Plate.PlateCreateInputVo">
+            <summary>
+            Plate输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.IArticleService">
+            <summary>
+            Article服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.IBannerService">
+            <summary>
+            Banner抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.ICommentService">
+            <summary>
+            Comment服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.IDiscussService">
+            <summary>
+            Discuss服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.IMyTypeService">
+            <summary>
+            Label服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.IPlateService">
+            <summary>
+            Plate服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Contracts.IServices.ISettingService">
+            <summary>
+            Setting应用抽象
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Contracts.IServices.ISettingService.GetTitleAsync">
+            <summary>
+            获取配置标题
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

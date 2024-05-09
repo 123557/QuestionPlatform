@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.CodeGen.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.FieldEntity.Name">
+            <summary>
+            字段名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.FieldEntity.IsRequired">
+            <summary>
+            是否必填
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.FieldEntity.IsKey">
+            <summary>
+            是否主键
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.FieldEntity.IsAutoAdd">
+            <summary>
+            是否自增
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.FieldEntity.IsPublic">
+            <summary>
+            是否公共
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TableAggregateRoot.Name">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TableAggregateRoot.Description">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TableAggregateRoot.Fields">
+            <summary>
+            一表多字段
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TemplateEntity.TemplateStr">
+            <summary>
+            模板字符串
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TemplateEntity.BuildPath">
+            <summary>
+            生成路径
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TemplateEntity.Name">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Domain.Entities.TemplateEntity.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Domain.Handlers.FieldTemplateHandler.BuildFields">
+            <summary>
+            生成Fields
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.CodeGen.Domain.Managers.CodeFileManager">
+            <summary>
+            代码文件领域服务,与代码文件生成相关，web to code
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.CodeGen.Domain.Managers.DataBaseManger">
+            <summary>
+            数据库领域服务，与数据库相关，同步到数据库，web to db ，code to db
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.CodeGen.Domain.Managers.WebTemplateManager">
+            <summary>
+            与webfrist相关，同步到web，code to web
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Domain.Managers.WebTemplateManager.BuildCodeToWebAsync">
+            <summary>
+            通过当前的实体代码获取表存储
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

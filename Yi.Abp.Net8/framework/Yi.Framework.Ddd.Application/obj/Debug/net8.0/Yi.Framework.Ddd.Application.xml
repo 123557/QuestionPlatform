@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Ddd.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Yi.Framework.Ddd.Application.YiCrudAppService`7.GetListAsync(`4)">
+            <summary>
+            多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Ddd.Application.YiCrudAppService`7.DeleteAsync(System.Collections.Generic.IEnumerable{`3})">
+            <summary>
+            多删
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Ddd.Application.YiCrudAppService`7.DeleteAsync(`3)">
+            <summary>
+            偷梁换柱
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Ddd.Application.YiCrudAppService`7.GetExportExcelAsync(`4)">
+            <summary>
+            导出excel
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Ddd.Application.YiCrudAppService`7.PostImportExcelAsync(System.Collections.Generic.List{`5})">
+            <summary>
+            导入excle
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

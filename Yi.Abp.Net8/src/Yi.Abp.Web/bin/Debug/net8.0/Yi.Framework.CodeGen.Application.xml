@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.CodeGen.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.CodeGen.Application.Services.CodeGenService">
+            <summary>
+            CodeGen
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.CodeGenService.PostWebBuildCodeAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Web To Code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.CodeGenService.PostWebBuildDbAsync">
+            <summary>
+            Web To Db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.CodeGenService.PostCodeBuildWebAsync">
+            <summary>
+            Code To Web
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.CodeGenService.PostCodeBuildDbAsync">
+            <summary>
+            Code To Db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.CodeGenService.PostDir(System.String)">
+            <summary>
+            打开目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.CodeGen.Application.Services.FieldService">
+            <summary>
+            字段管理
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.CodeGen.Application.Services.FieldService.GetFieldTypeEnum">
+            <summary>
+            获取类型枚举
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

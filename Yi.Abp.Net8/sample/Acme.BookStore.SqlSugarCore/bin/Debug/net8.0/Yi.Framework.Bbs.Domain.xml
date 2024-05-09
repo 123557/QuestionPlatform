@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Bbs.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity">
+            <summary>
+            银行卡
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.LastDepositTime">
+            <summary>
+            上一次存款日期
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.LastDrawTime">
+            <summary>
+            上一次取款日期
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.StorageMoney">
+            <summary>
+            当前存储的钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.MaxStorageMoney">
+            <summary>
+            最大可存储的钱钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.FulltermTime">
+            <summary>
+            满期限时间，可空
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.BankCardEntity.BankCardState">
+            <summary>
+            银行卡状态
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Bank.InterestRecordsEntity">
+            <summary>
+            利息记录
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.InterestRecordsEntity.ComparisonValue">
+            <summary>
+            第三方的比较值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.InterestRecordsEntity.Value">
+            <summary>
+            当前汇率值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Bank.InterestRecordsEntity.IsFluctuate">
+            <summary>
+            是否波动期
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity">
+            <summary>
+            评论表
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.UserLimit">
+            <summary>
+            用户限制
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.Level">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.Money">
+            <summary>
+            钱钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.Experience">
+            <summary>
+            经验
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.DiscussNumber">
+            <summary>
+            发表主题数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.CommentNumber">
+            <summary>
+            发表主题数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.BbsUserExtraInfoEntity.AgreeNumber">
+            <summary>
+            被点赞数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.AgreeEntity.DiscussId">
+            <summary>
+            主题id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.AgreeEntity.CreatorId">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.ArticleEntity.OrderNum">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Entities.Forum.ArticleEntityExtensions.Tile(System.Collections.Generic.List{Yi.Framework.Bbs.Domain.Entities.Forum.ArticleEntity})">
+            <summary>
+            平铺自己
+            </summary>
+            <param name="entities"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Forum.CommentEntity">
+            <summary>
+            评论表
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Entities.Forum.CommentEntity.#ctor">
+            <summary>
+            采用二维数组方式，不使用树形方式
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.CommentEntity.ParentId">
+            <summary>
+            被回复的CommentId
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.CommentEntity.CreateUser">
+            <summary>
+            用户,评论人用户信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.CommentEntity.CommentedUser">
+            <summary>
+            被评论的用户信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.DiscussEntity.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.DiscussEntity.PermissionUserIds">
+            <summary>
+            当PermissionType为部分用户时候，以下列表中的用户+创建者 代表拥有权限
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.DiscussEntity.IsDisableCreateComment">
+            <summary>
+            是否禁止评论创建功能
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Forum.DiscussTopEntity">
+            <summary>
+            首页置顶主题
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Forum.PlateEntity.IsDisableCreateDiscuss">
+            <summary>
+            是否禁用创建主题，禁用后，只有管理员或者权限者能够发送
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity">
+            <summary>
+            等级表
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity.CurrentLevel">
+            <summary>
+            当前等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity.MinExperience">
+            <summary>
+            最小所需经验值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity.Name">
+            <summary>
+            等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity.Nick">
+            <summary>
+            等级称号
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.LevelEntity.Logo">
+            <summary>
+            等候logo
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Entities.Integral.SignInEntity">
+            <summary>
+            签到表
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.SignInEntity.CreationTime">
+            <summary>
+            签到时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Entities.Integral.SignInEntity.ContinuousNumber">
+            <summary>
+            连续签到次数
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.EventHandlers.AgreeCreatedEventHandler">
+            <summary>
+            被点赞
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.EventHandlers.AgreeDeletedEventHandler">
+            <summary>
+            取消点赞
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.EventHandlers.CommentCreatedEventHandler">
+            <summary>
+            评论创建的领域事件
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.EventHandlers.DiscussCreatedEventHandler">
+            <summary>
+            主题创建的领域事件
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Managers.BankManager">
+            <summary>
+            银行领域，进阶了哦~
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BankManager.CurrentRate">
+            <summary>
+            获取当前银行汇率
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Managers.BankManager._currentRateStore">
+            <summary>
+            用于存储当前汇率数据
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.GetCurrentInterestRate">
+            <summary>
+            获取当前的银行汇率，如果为空会从数据库拿最新一条
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue">
+            <summary>
+            获取第三方的值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync">
+            <summary>
+            强制创建一个记录，不管时间到没到
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.IsMarketVolatility">
+            <summary>
+            判断是否为波动市场,市场波动，变化率翻倍
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.ApplyingBankCardAsync(System.Guid,System.Int32)">
+            <summary>
+            给用户申请银行卡
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.DrawMoneyAsync(System.Guid)">
+            <summary>
+            进行银行卡提款
+            </summary>
+            <param name="cardId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.BankManager.DepositAsync(System.Guid,System.Decimal)">
+            <summary>
+            给银行卡存款
+            </summary>
+            <param name="cardId"></param>
+            <param name="moneyNum"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.Level">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.LevelName">
+            <summary>
+            用户等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.UserLimit">
+            <summary>
+            用户限制
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.Money">
+            <summary>
+            钱钱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.Experience">
+            <summary>
+            经验
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.CommentNumber">
+            <summary>
+            发表主题数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Managers.BbsUserInfoDto.AgreeNumber">
+            <summary>
+            被点赞数
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Managers.ForumManager">
+            <summary>
+            论坛模块的领域服务
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.ForumManager.PostImportAsync(System.Guid,System.Guid,System.Collections.Generic.List{Yi.Framework.Bbs.Domain.Shared.Model.FileObject},Yi.Framework.Bbs.Domain.Shared.Enums.ArticleImportTypeEnum)">
+            <summary>
+            导入文章
+            </summary>
+            <param name="discussId"></param>
+            <param name="articleParentId"></param>
+            <param name="fileObjs"></param>
+            <param name="importType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.IntegralManager.SignInAsync(System.Guid)">
+            <summary>
+            签到
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.IntegralManager.VerifySignInTime(System.DateTime)">
+            <summary>
+            校验签到时间
+            </summary>
+            <param name="dataTime"></param>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.IntegralManager.GetSignInValue(System.Int32)">
+            <summary>
+            获取签到值
+            </summary>
+            <param name="continuousNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.IntegralManager.GetContinuousNumber(Yi.Framework.Bbs.Domain.Entities.Integral.SignInEntity)">
+            <summary>
+            获取连续次数
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Domain.Managers.LevelManager.ChangeLevelByMoneyAsync(System.Guid,System.Int32)">
+            <summary>
+            使用钱钱投喂等级
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

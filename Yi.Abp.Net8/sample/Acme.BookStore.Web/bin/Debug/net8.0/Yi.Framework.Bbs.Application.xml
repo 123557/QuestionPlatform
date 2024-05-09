@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Bbs.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Yi.Framework.Bbs.Application.Services.AccessLogService.Get">
+            <summary>
+            获取全部访问流量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.AccessLogService.AccessAsync">
+            <summary>
+            触发
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.AccessLogService.GetWeekAsync">
+            <summary>
+            获取当前周数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.AccessLogService.WeekTimeHandler(Yi.Framework.Bbs.Domain.Entities.AccessLogEntity[])">
+            <summary>
+            Todo: 可放入领域层
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Analyses.BbsForumAnalyseService.GetRandomDiscussAsync(Volo.Abp.Application.Dtos.PagedResultRequestDto)">
+            <summary>
+            推荐主题，随机返回主题列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Analyses.BbsUserAnalyseService.GetRandomUserAsync(Volo.Abp.Application.Dtos.PagedResultRequestDto)">
+            <summary>
+            推荐好友，随机返回好友列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Analyses.BbsUserAnalyseService.GetIntegralTopUserAsync(Volo.Abp.Application.Dtos.PagedResultRequestDto)">
+            <summary>
+            积分钱钱排行榜
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Analyses.BbsUserAnalyseService.GetUserAnalyseAsync">
+            <summary>
+            用户分析
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Bank.BankService.GetInterestRecordsAsync">
+            <summary>
+            获取最近24小时汇率记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Bank.BankService.GetBankCardListAsync">
+            <summary>
+            获取登录用户全部银行卡信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Bank.BankService.ApplyingBankCardAsync">
+            <summary>
+            给用户申请银行卡
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Bank.BankService.DrawMoneyAsync(System.Guid)">
+            <summary>
+            给银行卡提款
+            </summary>
+            <param name="cardId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Bank.BankService.DepositAsync(System.Guid,System.Decimal)">
+            <summary>
+            给银行卡存款
+            </summary>
+            <param name="cardId"></param>
+            <param name="moneyNum"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.AgreeService">
+            <summary>
+            点赞功能
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.AgreeService.PostOperateAsync(System.Guid)">
+            <summary>
+            点赞,返回true为点赞+1，返回false为点赞-1
+            Todo: 可放入领域层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.ArticleService">
+            <summary>
+            Article服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.GetAllAsync(System.Guid)">
+            <summary>
+            获取文章全部树级信息
+            </summary>
+            <param name="discussId"></param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.GetDiscussIdAsync(System.Guid)">
+            <summary>
+            查询文章
+            </summary>
+            <param name="discussId"></param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.CreateAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Article.ArticleCreateInputVo)">
+            <summary>
+            发表文章
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.UpdateAsync(System.Guid,Yi.Framework.Bbs.Application.Contracts.Dtos.Article.ArticleUpdateInputVo)">
+            <summary>
+            更新文章
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.DeleteAsync(System.Guid)">
+            <summary>
+            删除文章
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.PostImportAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Article.ArticleImprotDto,Microsoft.AspNetCore.Http.IFormFileCollection)">
+            <summary>
+            导入文章
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.ArticleService.VerifyDiscussCreateIdAsync(System.Guid)">
+            <summary>
+            校验创建权限，userId为主题创建者
+            </summary>
+            <param name="disucssId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.BannerService">
+            <summary>
+            Banner服务实现
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.CommentService">
+            <summary>
+            评论
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.CommentService.GetDiscussIdAsync(System.Guid,Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentGetListInputVo)">
+            <summary>
+            获取改主题下的评论,结构为二维列表，该查询无分页
+            Todo: 可放入领域层
+            </summary>
+            <param name="discussId"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.CommentService.CreateAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Comment.CommentCreateInputVo)">
+            <summary>
+            发表评论
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.DiscussService">
+            <summary>
+            Discuss应用服务实现,用于参数校验、领域服务业务组合、日志记录、事务处理、账户信息
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.DiscussService.GetAsync(System.Guid)">
+            <summary>
+            单查
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.DiscussService.GetListAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussGetListInputVo)">
+            <summary>
+            查询
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.DiscussService.GetListTopAsync">
+            <summary>
+            获取首页的置顶主题
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.DiscussService.CreateAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Discuss.DiscussCreateInputVo)">
+            <summary>
+            创建主题
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.DiscussService.VerifyDiscussPermissionAsync(System.Guid)">
+            <summary>
+            校验主题查询权限
+            </summary>
+            <param name="discussId"></param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.MyTypeService">
+            <summary>
+            Label服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.MyTypeService.GetListCurrentAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.MyType.MyTypeGetListInputVo)">
+            <summary>
+            获取当前用户的主题类型
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Forum.MyTypeService.CreateAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.MyType.MyTypeCreateInputVo)">
+            <summary>
+            创建
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Forum.PlateService">
+            <summary>
+            Plate服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Integral.IntegralService.PostSignInAsync">
+            <summary>
+            签到
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Integral.IntegralService.GetSignInRecordAsync">
+            <summary>
+            获取本月签到记录
+            Todo: 可放入领域层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.Integral.LevelService">
+            <summary>
+            等级服务
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Integral.LevelService.GetListAsync(Yi.Framework.Bbs.Application.Contracts.Dtos.Level.LevelGetListInputDto)">
+            <summary>
+            查询等级配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Integral.LevelService.UpdateUpgradeAsync(System.Int32)">
+            <summary>
+            升级等级
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.Integral.LuckyService.PostWheel">
+            <summary>
+            大转盘
+            Todo: 可放入领域层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Application.Services.SettingService">
+            <summary>
+            Setting服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.SettingService.GetTitleAsync">
+            <summary>
+            获取配置标题
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Bbs.Application.Services.SettingService.GetIcon">
+            <summary>
+            获取头像文件
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

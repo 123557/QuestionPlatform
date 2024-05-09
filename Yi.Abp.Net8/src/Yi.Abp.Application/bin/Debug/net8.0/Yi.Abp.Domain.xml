@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Abp.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Abp.Domain.Entities.FileAggregateRoot.FileSize">
+             <summary>
+             文件大小 
+            </summary>
+        </member>
+        <member name="P:Yi.Abp.Domain.Entities.FileAggregateRoot.FileName">
+             <summary>
+             文件名 
+            </summary>
+        </member>
+        <member name="P:Yi.Abp.Domain.Entities.FileAggregateRoot.FilePath">
+             <summary>
+             文件路径 
+            </summary>
+        </member>
+        <member name="T:Yi.Abp.Domain.Entities.QuestionEntity">
+            <summary>
+            实体
+            </summary>
+        </member>
+    </members>
+</doc>

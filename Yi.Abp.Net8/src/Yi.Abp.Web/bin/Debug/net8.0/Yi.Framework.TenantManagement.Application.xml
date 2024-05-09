@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.TenantManagement.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.TenantManagement.Application.TenantService">
+            <summary>
+            租户管理
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.GetAsync(System.Guid)">
+            <summary>
+            租户单查
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.GetListAsync(Yi.Framework.TenantManagement.Application.Contracts.Dtos.TenantGetListInput)">
+            <summary>
+            租户多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.GetSelectAsync">
+            <summary>
+            租户选项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.CreateAsync(Yi.Framework.TenantManagement.Application.Contracts.Dtos.TenantCreateInput)">
+            <summary>
+            创建租户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.UpdateAsync(System.Guid,Yi.Framework.TenantManagement.Application.Contracts.Dtos.TenantUpdateInput)">
+            <summary>
+            更新租户
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.DeleteAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            租户删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.TenantManagement.Application.TenantService.InitAsync(System.Guid)">
+            <summary>
+            初始化租户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

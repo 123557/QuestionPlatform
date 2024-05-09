@@ -1,0 +1,96 @@
+2024-03-30 13:20:51.652 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "对不起，在处理您的请求期间产生了一个服务器内部错误！！",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2024-03-30 13:20:51.652 +08:00 [ERR] 【127.0.0.1:6379/0】Status unavailable, waiting for recovery. 由于目标计算机积极拒绝，无法连接。
+System.Exception: 【127.0.0.1:6379/0】Status unavailable, waiting for recovery. 由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at FreeRedis.Internal.DefaultRedisSocket.Connect()
+   at FreeRedis.Internal.DefaultRedisSocket.Write(CommandPacket cmd)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass5_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCallCtrl[T](CommandPacket cmd, Func`1 func, Boolean aopBefore, Boolean aopAfter)
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.SingleInsideAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call(CommandPacket cmd)
+   at FreeRedis.Internal.RedisClientPoolPolicy.PrevReheatConnectionPool(ObjectPool`1 pool, Int32 minPoolSize)
+   --- End of inner exception stack trace ---
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeRedis.RedisClient.PoolingAdapter.GetRedisSocket(CommandPacket cmd)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass9_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCallCtrl[T](CommandPacket cmd, Func`1 func, Boolean aopBefore, Boolean aopAfter)
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.PoolingAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Eval(String script, String[] keys, Object[] arguments)
+   at FreeRedis.DistributedCache.Set(String key, Byte[] value, DistributedCacheEntryOptions options)
+   at Lazy.Captcha.Core.Storeage.DefaultStorage.Set(String key, String value, DateTimeOffset absoluteExpiration)
+   at Lazy.Captcha.Core.DefaultCaptcha.Generate(String captchaId, Nullable`1 expirySeconds)
+   at Yi.Framework.Rbac.Application.Services.AccountService.GetCaptchaImageAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Application\Services\AccountService.cs:line 135
+   at lambda_method1416(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-03-30 13:20:56.591 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "对不起，在处理您的请求期间产生了一个服务器内部错误！！",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2024-03-30 13:20:56.591 +08:00 [ERR] 【127.0.0.1:6379/0】Status unavailable, waiting for recovery. 由于目标计算机积极拒绝，无法连接。
+System.Exception: 【127.0.0.1:6379/0】Status unavailable, waiting for recovery. 由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at FreeRedis.Internal.DefaultRedisSocket.Connect()
+   at FreeRedis.Internal.DefaultRedisSocket.Write(CommandPacket cmd)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass5_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCallCtrl[T](CommandPacket cmd, Func`1 func, Boolean aopBefore, Boolean aopAfter)
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.SingleInsideAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call(CommandPacket cmd)
+   at FreeRedis.Internal.RedisClientPoolPolicy.PrevReheatConnectionPool(ObjectPool`1 pool, Int32 minPoolSize)
+   --- End of inner exception stack trace ---
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeRedis.RedisClient.PoolingAdapter.GetRedisSocket(CommandPacket cmd)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass9_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCallCtrl[T](CommandPacket cmd, Func`1 func, Boolean aopBefore, Boolean aopAfter)
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.PoolingAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Eval(String script, String[] keys, Object[] arguments)
+   at FreeRedis.DistributedCache.Set(String key, Byte[] value, DistributedCacheEntryOptions options)
+   at Lazy.Captcha.Core.Storeage.DefaultStorage.Set(String key, String value, DateTimeOffset absoluteExpiration)
+   at Lazy.Captcha.Core.DefaultCaptcha.Generate(String captchaId, Nullable`1 expirySeconds)
+   at Yi.Framework.Rbac.Application.Services.AccountService.GetCaptchaImageAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\rbac\Yi.Framework.Rbac.Application\Services\AccountService.cs:line 135
+   at lambda_method1416(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

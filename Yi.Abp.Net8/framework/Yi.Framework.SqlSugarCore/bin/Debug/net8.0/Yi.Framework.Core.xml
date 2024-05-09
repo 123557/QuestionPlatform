@@ -1,0 +1,847 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.Core.Enums.FileTypeEnum">
+            <summary>
+            定义公共文件路径
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.Equal">
+            <summary>
+            相等
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.Like">
+            <summary>
+            匹配
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.GreaterThan">
+            <summary>
+            大于
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.GreaterThanOrEqual">
+            <summary>
+            大于或等于
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.LessThan">
+            <summary>
+            小于
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.LessThanOrEqual">
+            <summary>
+            小于或等于
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.In">
+            <summary>
+            等于集合
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.NotIn">
+            <summary>
+            不等于集合
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.LikeLeft">
+            <summary>
+            左边匹配
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.LikeRight">
+            <summary>
+            右边匹配
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.NoEqual">
+            <summary>
+            不相等
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.IsNullOrEmpty">
+            <summary>
+            为空或空
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.IsNot">
+            <summary>
+            不为空
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.NoLike">
+            <summary>
+            不匹配
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.QueryOperatorEnum.DateRange">
+            <summary>
+            时间段 值用 "|" 隔开
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.ResultCodeEnum.Success">
+            <summary>
+            操作成功。
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.ResultCodeEnum.NotSuccess">
+            <summary>
+            操作不成功
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.ResultCodeEnum.NoPermission">
+            <summary>
+            无权限
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Enums.ResultCodeEnum.Denied">
+            <summary>
+            被拒绝
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.FileInlineHandle(Microsoft.AspNetCore.Http.HttpContext,System.String)">
+            <summary>
+            设置文件下载名称
+            </summary>
+            <param name="httpContext"></param>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.FileAttachmentHandle(Microsoft.AspNetCore.Http.HttpContext,System.String)">
+            <summary>
+            设置文件附件名称
+            </summary>
+            <param name="httpContext"></param>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.GetLanguage(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取语言种类
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.IsAjaxRequest(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            判断是否为异步请求
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.GetClientIp(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取客户端IP
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Extensions.HttpContextExtensions.GetUserAgent(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取浏览器标识
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.AssemblyHelper.GetAllLoadAssembly">
+            <summary>
+            此处统一获取程序集，排除微软内部相关
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.Base32Helper.ToString(System.Byte[])">
+            <summary>
+            Converts an array of bytes to a Base32-k string.
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.Base32Helper.FromBase32String(System.String)">
+            <summary>
+            Converts a Base32-k string into an array of bytes.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Input string <paramref name="s">s</paramref> contains invalid Base32-k characters.
+            </exception>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ComputerHelper.ParseToLong(System.Object)">
+            <summary>
+            将object转换为long，若转换失败，则返回0。不抛出异常。  
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ComputerHelper.ParseToDateTime(System.String)">
+            <summary>
+            将string转换为DateTime，若转换失败，则返回日期最小值。不抛出异常。  
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ComputerHelper.GetComputerInfo">
+            <summary>
+            内存使用情况
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ComputerHelper.GetDiskInfos">
+            <summary>
+            获取内存大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ComputerHelper.GetRunTime">
+            <summary>
+            获取系统运行时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Core.Helper.MemoryMetrics">
+            <summary>
+            内存信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.MemoryMetrics.CPURate">
+            <summary>
+            CPU使用率%
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.MemoryMetrics.TotalRAM">
+            <summary>
+            总内存 GB
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.MemoryMetrics.RAMRate">
+            <summary>
+            内存使用率 %
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.MemoryMetrics.FreeRam">
+            <summary>
+            空闲内存
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.DiskInfo.DiskName">
+            <summary>
+            磁盘名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.DiskInfo.Used">
+            <summary>
+            已使用
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Core.Helper.DiskInfo.AvailableFreeSpace">
+            <summary>
+            可使用
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MemoryMetricsClient.GetWindowsMetrics">
+            <summary>
+            windows系统获取内存信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MemoryMetricsClient.GetUnixMetrics">
+            <summary>
+            Unix系统获取
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ConsoleHelper.WriteErrorLine(System.String,System.ConsoleColor)">
+            <summary>
+            打印错误信息
+            </summary>
+            <param name="str">待打印的字符串</param>
+            <param name="color">想要打印的颜色</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ConsoleHelper.WriteWarningLine(System.String,System.ConsoleColor)">
+            <summary>
+            打印警告信息
+            </summary>
+            <param name="str">待打印的字符串</param>
+            <param name="color">想要打印的颜色</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ConsoleHelper.WriteInfoLine(System.String,System.ConsoleColor)">
+            <summary>
+            打印正常信息
+            </summary>
+            <param name="str">待打印的字符串</param>
+            <param name="color">想要打印的颜色</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ConsoleHelper.WriteSuccessLine(System.String,System.ConsoleColor)">
+            <summary>
+            打印成功的信息
+            </summary>
+            <param name="str">待打印的字符串</param>
+            <param name="color">想要打印的颜色</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateHelper.ToLocalTimeDateBySeconds(System.Int64)">
+            <summary>
+             时间戳转本地时间-时间戳精确到秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateHelper.ToUnixTimestampBySeconds(System.DateTime)">
+            <summary>
+             时间转时间戳Unix-时间戳精确到秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateHelper.ToLocalTimeDateByMilliseconds(System.Int64)">
+            <summary>
+             时间戳转本地时间-时间戳精确到毫秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateHelper.ToUnixTimestampByMilliseconds(System.DateTime)">
+            <summary>
+             时间转时间戳Unix-时间戳精确到毫秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.GetBeginTime(System.Nullable{System.DateTime},System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.ToLocalTimeDateBySeconds(System.Int64)">
+            <summary>
+             时间戳转本地时间-时间戳精确到秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.ToUnixTimestampBySeconds(System.DateTime)">
+            <summary>
+             时间转时间戳Unix-时间戳精确到秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.ToLocalTimeDateByMilliseconds(System.Int64)">
+            <summary>
+             时间戳转本地时间-时间戳精确到毫秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.ToUnixTimestampByMilliseconds(System.DateTime)">
+            <summary>
+             时间转时间戳Unix-时间戳精确到毫秒
+            </summary> 
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.FormatTime(System.Int64)">
+            <summary>
+            毫秒转天时分秒
+            </summary>
+            <param name="ms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DateTimeHelper.GetUnixTimeStamp(System.DateTime)">
+            <summary>
+            获取unix时间戳
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.DistinctHelper.DistinctNew``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+            <summary>
+            自定义Distinct扩展方法
+            </summary>
+            <typeparam name="T">要去重的对象类</typeparam>
+            <typeparam name="C">自定义去重的字段类型</typeparam>
+            <param name="source">要去重的对象</param>
+            <param name="getfield">获取自定义去重字段的委托</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ExpressionHelper.Compose``1(System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})">
+            <summary>
+            Expression表达式树lambda参数拼接组合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="first"></param>
+            <param name="second"></param>
+            <param name="merge"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ExpressionHelper.False``1">
+            <summary>
+            Expression表达式树lambda参数拼接--false
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ExpressionHelper.True``1">
+            <summary>
+            Expression表达式树lambda参数拼接-true
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ExpressionHelper.And``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            Expression表达式树lambda参数拼接--and
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="first"></param>
+            <param name="second"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ExpressionHelper.Or``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            Expression表达式树lambda参数拼接--or
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="first"></param>
+            <param name="second"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.LambdaParameteRebinder.map">
+            <summary>
+            存放表达式树的参数的字典
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.LambdaParameteRebinder.#ctor(System.Collections.Generic.Dictionary{System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.ParameterExpression})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="map"></param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.LambdaParameteRebinder.VisitParameter(System.Linq.Expressions.ParameterExpression)">
+            <summary>
+            重载参数访问的方法，访问表达式树参数，如果字典中包含，则取出
+            </summary>
+            <param name="node">表达式树参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.GetPostfixStr(System.String)">
+            <summary>
+            取后缀名
+            </summary>
+            <param name="filename">文件名</param>
+            <returns>.gif|.html格式</returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.WriteFile(System.String,System.String)">
+            <summary>
+            写文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="Strings">文件内容</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.WriteFile(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            写文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="Strings">文件内容</param>
+            <param name="encode">编码格式</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.ReadFile(System.String)">
+            <summary>
+            读文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.ReadFile(System.String,System.Text.Encoding)">
+            <summary>
+            读文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="encode">编码格式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileAdd(System.String,System.String)">
+            <summary>
+            追加文件
+            </summary>
+            <param name="Path">文件路径</param>
+            <param name="strings">内容</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileCoppy(System.String,System.String)">
+            <summary>
+            拷贝文件
+            </summary>
+            <param name="OrignFile">原始文件</param>
+            <param name="NewFile">新文件路径</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileDel(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="Path">路径</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileMove(System.String,System.String)">
+            <summary>
+            移动文件
+            </summary>
+            <param name="OrignFile">原始路径</param>
+            <param name="NewFile">新路径</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FolderCreate(System.String,System.String)">
+            <summary>
+            在当前目录下创建目录
+            </summary>
+            <param name="OrignFolder">当前目录</param>
+            <param name="NewFloder">新目录</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.DeleteFolder(System.String)">
+            <summary>
+            递归删除文件夹目录及文件
+            </summary>
+            <param name="dir"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.CopyDir(System.String,System.String)">
+            <summary>
+            指定文件夹下面的所有内容copy到目标文件夹下面
+            </summary>
+            <param name="srcPath">原始路径</param>
+            <param name="aimPath">目标文件夹</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.GetAllFileNames(System.String,System.String)">
+            <summary>
+            获取目录下全部文件名
+            </summary>
+            <param name="path"></param>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileContentReplace(System.String,System.String,System.String)">
+            <summary>
+            文件内容替换
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.FileNameReplace(System.String,System.String,System.String)">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.DirectoryNameReplace(System.String,System.String,System.String)">
+            <summary>
+            目录名替换
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.FileHelper.AllInfoReplace(System.String,System.String,System.String)">
+            <summary>
+             全部信息递归替换
+            </summary>
+            <param name="dirPath"></param>
+            <param name="oldStr"></param>
+            <param name="newStr"></param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.HtmlHelper.ReplaceHtmlTag(System.String,System.Int32)">
+            <summary>
+            去除富文本中的HTML标签
+            </summary>
+            <param name="html"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.IpHelper.GetCurrentIp(System.String)">
+            <summary>
+            获取当前IP地址
+            </summary>
+            <param name="preferredNetworks"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.JsonHelper.GetJSON``1(System.Object)">
+            <summary>
+            转换对象为JSON格式数据
+            </summary>
+            <typeparam name="T">类</typeparam>
+            <param name="obj">对象</param>
+            <returns>字符格式的JSON数据</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Yi.Framework.Core.Helper.JsonHelper.JSON``1(System.Collections.Generic.List{``0})" -->
+        <member name="M:Yi.Framework.Core.Helper.JsonHelper.ParseFormByJson``1(System.String)">
+            <summary>
+            JSON格式字符转换为T类型的对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="jsonStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.JsonHelper.GetValueLength(System.String,System.Boolean,System.Int32@)">
+            <summary>
+            获取值的长度（当Json值嵌套以"{"或"["开头时）
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.JsonHelper.SetCharState(System.Char,Yi.Framework.Core.Helper.CharState@)">
+            <summary>
+            设置字符状态(返回true则为关键词，返回false则当为普通字符处理）
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Core.Helper.CharState">
+            <summary>
+            字符状态
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.CharState.arrayStart">
+            <summary>
+            数组开始【仅第一开头才算】，值嵌套的以【childrenStart】来标识。
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.CharState.state">
+            <summary>
+            【0 初始状态，或 遇到“,”逗号】；【1 遇到“：”冒号】
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.CharState.keyStart">
+            <summary>
+            【-1 取值结束】【0 未开始】【1 无引号开始】【2 单引号开始】【3 双引号开始】
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.CharState.valueStart">
+            <summary>
+            【-1 取值结束】【0 未开始】【1 无引号开始】【2 单引号开始】【3 双引号开始】
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MD5Helper.GenerateSalt">
+            <summary>
+            生成PasswordSalt
+            </summary>
+            <returns>返回string</returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MD5Helper.SHA2Encode(System.String,System.String,System.Int32)">
+            <summary>
+            加密密码
+            </summary>
+            <param name="pass">密码</param>
+            <param name="passwordFormat">加密类型</param>
+            <param name="salt">PasswordSalt</param>
+            <returns>加密后的密码</returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MD5Helper.MD5Encrypt16(System.String)">
+            <summary>
+            16位MD5加密
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MD5Helper.MD5Encrypt32(System.String)">
+            <summary>
+            32位MD5加密
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.MD5Helper.MD5Encrypt64(System.String)">
+            <summary>
+            64位MD5加密
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RandomHelper.GenerateRandomLetter(System.Int32)">
+            <summary>
+            随机生成字母
+            </summary>
+            <param name="Length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RandomHelper.GenerateCheckCodeNum(System.Int32)">
+            <summary>
+            随机生成数字
+            </summary>
+            <param name="codeCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RandomHelper.RandChina(System.Int32)">
+            <summary>
+            此函数为生成指定数目的汉字
+            </summary>
+            <param name="charLen">汉字数目</param>
+            <returns>所有汉字</returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ReflexHelper.GetModelValue(System.String,System.Object)">
+            <summary>
+            取对象属性值
+            </summary>
+            <param name="FieldName"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ReflexHelper.SetModelValue(System.String,System.Object,System.Object)">
+            <summary>
+            设置对象属性值
+            </summary>
+            <param name="FieldName"></param>
+            <param name="Value"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Core.Helper.RSAHelper">
+            <summary>
+            RSA加解密 使用OpenSSL的公钥加密/私钥解密 
+            公私钥请使用openssl生成
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.#ctor(Yi.Framework.Core.Helper.RSAType,System.Text.Encoding,System.String,System.String)">
+            <summary>
+            实例化RSAHelper
+            </summary>
+            <param name="rsaType">加密算法类型 RSA SHA1;RSA2 SHA256 密钥长度至少为2048</param>
+            <param name="encoding">编码类型</param>
+            <param name="privateKey">私钥</param>
+            <param name="publicKey">公钥</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.Sign(System.String)">
+            <summary>
+            使用私钥签名
+            </summary>
+            <param name="data">原始数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.Verify(System.String,System.String)">
+            <summary>
+            使用公钥验签
+            </summary>
+            <param name="data">原始数据</param>
+            <param name="sign">签名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.Decrypt(System.String)">
+            <summary>
+            私钥解密(支持大量数据)
+            </summary>
+            <param name="cipherText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.Encrypt(System.String)">
+            <summary>
+            公钥加密(支持大量数据)
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.CreateRsaProviderFromPrivateKey(System.String)">
+            <summary>
+            使用私钥创建RSA实例
+            </summary>
+            <param name="privateKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.RSAHelper.CreateRsaProviderFromPublicKey(System.String)">
+            <summary>
+            使用公钥创建RSA实例
+            </summary>
+            <param name="publicKeyString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Core.Helper.RSAType">
+            <summary>
+            RSA算法类型
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.RSAType.RSA">
+            <summary>
+            SHA1
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Core.Helper.RSAType.RSA2">
+            <summary>
+            RSA2 密钥长度至少为2048
+            SHA256
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ShellHelper.Bash(System.String)">
+            <summary>
+            linux 系统命令
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.ShellHelper.Cmd(System.String,System.String)">
+            <summary>
+            windows系统命令
+            </summary>
+            <param name="fileName"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetTopDataBySeparator(System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            根据分隔符返回前n条数据
+            </summary>
+            <param name="content">数据内容</param>
+            <param name="separator">分隔符</param>
+            <param name="top">前n条</param>
+            <param name="isDesc">是否倒序（默认false）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetPars(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            根据字段拼接get参数
+            </summary>
+            <param name="dic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetPars(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            根据字段拼接get参数
+            </summary>
+            <param name="dic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetGUID(System.String)">
+            <summary>
+            获取一个GUID
+            </summary>
+            <param name="format">格式-默认为N</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetGuidToLongID">
+            <summary>  
+            根据GUID获取19位的唯一数字序列  
+            </summary>  
+            <returns></returns>  
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.StringHelper.GetCusLine(System.String,System.Int32)">
+            <summary>
+            获取字符串最后X行
+            </summary>
+            <param name="resourceStr"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.UnicodeHelper.StringToUnicode(System.String)">
+            <summary>
+            字符串转Unicode码
+            </summary>
+            <returns>The to unicode.</returns>
+            <param name="value">Value.</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.UnicodeHelper.UnicodeToString(System.String)">
+            <summary>
+            Unicode转字符串
+            </summary>
+            <returns>The to string.</returns>
+            <param name="unicode">Unicode.</param>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.UrlHelper.UrlEncode(System.String)">
+            <summary>
+            UrlEncode编码
+            </summary>
+            <param name="url">url</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.UrlHelper.UrlDecode(System.String)">
+            <summary>
+             UrlEncode解码
+            </summary>
+            <param name="data">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.XmlHelper.GetXML``1(System.Object)">
+            <summary>
+            转换对象为JSON格式数据
+            </summary>
+            <typeparam name="T">类</typeparam>
+            <param name="obj">对象</param>
+            <returns>字符格式的JSON数据</returns>
+        </member>
+        <member name="M:Yi.Framework.Core.Helper.XmlHelper.ParseFormByXml``1(System.String,System.String)">
+            <summary>
+            Xml格式字符转换为T类型的对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="xml"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

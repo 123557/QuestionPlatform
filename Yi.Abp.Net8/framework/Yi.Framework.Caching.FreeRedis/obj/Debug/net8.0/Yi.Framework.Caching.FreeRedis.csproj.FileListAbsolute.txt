@@ -1,0 +1,14 @@
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\bin\Debug\net8.0\Yi.Framework.Caching.FreeRedis.deps.json
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\bin\Debug\net8.0\Yi.Framework.Caching.FreeRedis.dll
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\bin\Debug\net8.0\Yi.Framework.Caching.FreeRedis.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\bin\Debug\net8.0\Yi.Framework.Caching.FreeRedis.xml
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.csproj.AssemblyReference.cache
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.GeneratedMSBuildEditorConfig.editorconfig
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.AssemblyInfoInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.AssemblyInfo.cs
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.csproj.CoreCompileInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.dll
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\refint\Yi.Framework.Caching.FreeRedis.dll
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.xml
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\Yi.Framework.Caching.FreeRedis.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Caching.FreeRedis\obj\Debug\net8.0\ref\Yi.Framework.Caching.FreeRedis.dll

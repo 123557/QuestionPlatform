@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Rbac.SqlSugarCore</name>
+    </assembly>
+    <members>
+        <member name="M:Yi.Framework.Rbac.SqlSugarCore.Repositories.UserRepository.GetUserAllInfoAsync(System.Guid)">
+            <summary>
+            获取用户id的全部信息
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Rbac.SqlSugarCore.YiRbacDbContext.DataPermissionFilter(SqlSugar.ISqlSugarClient)">
+            <summary>
+            数据权限过滤
+            </summary>
+        </member>
+    </members>
+</doc>

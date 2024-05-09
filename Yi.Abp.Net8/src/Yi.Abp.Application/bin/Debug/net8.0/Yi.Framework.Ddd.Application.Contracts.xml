@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Ddd.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.Ddd.Application.Contracts.PagedAllResultRequestDto.StartTime">
+            <summary>
+            查询开始时间条件
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Ddd.Application.Contracts.PagedAllResultRequestDto.EndTime">
+            <summary>
+            查询结束时间条件
+            </summary>
+        </member>
+    </members>
+</doc>

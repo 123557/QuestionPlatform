@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Abp.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Abp.Application.Jobs.TestJob">
+            <summary>
+            定时任务
+            </summary>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.FileService.Get(System.Guid)">
+            <summary>
+            下载文件,是否缩略图
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.FileService.Post(Microsoft.AspNetCore.Http.IFormFileCollection,System.Nullable{System.Guid})">
+            <summary>
+            上传文件
+            Todo: 可放入领域层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Abp.Application.Services.QuestionService">
+            <summary>
+            Question服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.QuestionService.GetListAsync(Yi.Abp.Application.Contracts.Dtos.Question.QuestionGetListInput)">
+            <summary>
+            多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Abp.Application.Services.TestService">
+            <summary>
+            常用魔改及扩展示例
+            </summary>
+        </member>
+        <member name="P:Yi.Abp.Application.Services.TestService.sqlSugarRepository">
+            <summary>
+            属性注入
+            不推荐，坑太多，容易把自己玩死，简单的东西可以用一用
+            </summary>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetHelloWorld(System.String)">
+            <summary>
+            动态Api
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetSqlSugarDbAsync">
+            <summary>
+            SqlSugar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetUowAsync">
+            <summary>
+            工作单元
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetCurrentUser">
+            <summary>
+            当前用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetDataFilter">
+            <summary>
+            数据权限
+            </summary>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetMapper">
+            <summary>
+            对象映射
+            </summary>
+        </member>
+        <member name="M:Yi.Abp.Application.Services.TestService.GetRateLimiting">
+            <summary>
+            速率限制
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

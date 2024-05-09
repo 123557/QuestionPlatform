@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Caching.FreeRedis</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.Caching.FreeRedis.FreeSqlOptions">
+            <summary>
+            便于转到定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Caching.FreeRedis.YiFrameworkCachingFreeRedisModule">
+            <summary>
+            此模块得益于FreeRedis作者支持IDistributedCache，使用湿滑
+            </summary>
+        </member>
+    </members>
+</doc>

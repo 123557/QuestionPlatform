@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.AspNetCore.Microsoft.Extensions.DependencyInjection.EnumSchemaFilter">
+            <summary>
+            Swagger文档枚举字段显示枚举属性和枚举值,以及枚举描述
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Microsoft.Extensions.DependencyInjection.EnumSchemaFilter.Apply(Microsoft.OpenApi.Models.OpenApiSchema,Swashbuckle.AspNetCore.SwaggerGen.SchemaFilterContext)">
+            <summary>
+            实现接口
+            </summary>
+            <param name="model"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo"/>.
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.#ctor(System.String,System.String,System.String,System.Object)">
+            <summary>
+            Creates a new instance of <see cref="T:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo"/>.
+            </summary>
+            <param name="code">Error code</param>
+            <param name="details">Error details</param>
+            <param name="message">Error message</param>
+            <param name="data">Error data</param>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.Code">
+            <summary>
+            code.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.Message">
+            <summary>
+            message.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.Details">
+            <summary>
+            details.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.RemoteServiceSuccessInfo.Data">
+            <summary>
+            data.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Rbac.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.ValidationImageCaptcha(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.LoginInputVo)">
+            <summary>
+            校验图片登录验证码,无需和账号绑定
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.PostLoginAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.LoginInputVo)">
+            <summary>
+            登录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.PostRefreshAsync(System.String)">
+            <summary>
+            刷新token
+            </summary>
+            <param name="refresh_token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.GetCaptchaImageAsync">
+            <summary>
+            生成验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.ValidationPhone(System.String)">
+            <summary>
+            验证电话号码
+            </summary>
+            <param name="str_handset"></param>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.PostCaptchaPhone(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.PhoneCaptchaImageDto)">
+            <summary>
+            注册 手机验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.ValidationPhoneCaptchaAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto)">
+            <summary>
+            校验电话验证码，需要与电话号码绑定
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.PostRegisterAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto)">
+            <summary>
+            注册，需要验证码通过
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.Get">
+            <summary>
+            查询已登录的账户信息，已缓存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.GetVue3Router">
+            <summary>
+            获取当前登录用户的前端路由
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.PostLogout">
+            <summary>
+            退出登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.UpdatePasswordAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.UpdatePasswordDto)">
+            <summary>
+            更新密码
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.RestPasswordAsync(System.Guid,Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RestPasswordDto)">
+            <summary>
+            重置密码
+            </summary>
+            <param name="userId"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.AccountService.UpdateIconAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.UpdateIconDto)">
+            <summary>
+             更新头像
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.Authentication.AuthService">
+            <summary>
+            第三方授权服务
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Authentication.AuthService.AuthOauthLoginAsync(System.String,System.String)">
+            <summary>
+            第三方oauth登录
+            </summary>
+            <param name="scheme"></param>
+            <param name="code">code是为了swagger更好的处理和显示</param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Authentication.AuthService.AuthOauthBindAsync(System.String,System.String)">
+            <summary>
+            第三方oauth绑定
+            </summary>
+            <param name="scheme"></param>
+            <param name="code">code是为了swagger更好的处理和显示</param>
+            <returns></returns>
+            <exception cref="T:Volo.Abp.UserFriendlyException"></exception>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Authentication.AuthService.GetListAccountAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Account.AuthGetListInput)">
+            <summary>
+            获取当前账户的授权信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Authentication.AuthService.DeleteAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除第三方授权
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.ConfigService">
+            <summary>
+            Config服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.ConfigService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListInputVo)">
+            <summary>
+            多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.DictionaryService">
+            <summary>
+            Dictionary服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.DictionaryService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Dictionary.DictionaryGetListInputVo)">
+            <summary>
+            查询
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.DictionaryService.GetDicType(System.String)">
+            <summary>
+            根据字典类型获取字典列表
+            </summary>
+            <param name="dicType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.DictionaryTypeService">
+            <summary>
+            DictionaryType服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.FileService.Get(System.Guid,System.Nullable{System.Boolean})">
+            <summary>
+            下载文件,是否缩略图
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.FileService.Post(Microsoft.AspNetCore.Http.IFormFileCollection)">
+            <summary>
+            上传文件
+            Todo: 可放入领域层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Services.Monitor.MonitorCacheService.CacheKeyPrefix">
+            <summary>
+            缓存前缀
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Services.Monitor.MonitorCacheService.RedisClient">
+            <summary>
+            使用懒加载防止报错
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.MonitorCacheService.GetName">
+            <summary>
+            获取所有key并分组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.OnlineService.GetListAsync(Yi.Framework.Rbac.Domain.Shared.Model.OnlineUserModel)">
+            <summary>
+            动态条件获取当前在线用户
+            </summary>
+            <param name="online"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.OnlineService.ForceOut(System.String)">
+            <summary>
+            强制退出用户
+            </summary>
+            <param name="connnectionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.GetAsync(System.String)">
+            <summary>
+            单查job
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListInput)">
+            <summary>
+            多查job
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.CreateAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskCreateInput)">
+            <summary>
+            创建job
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.DeleteAsync(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            移除job
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.PauseAsync(System.String)">
+            <summary>
+            暂停job
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.StartAsync(System.String)">
+            <summary>
+            开始job
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.Monitor.TaskService.UpdateAsync(System.String,Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskUpdateInput)">
+            <summary>
+            更新job
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.NoticeService">
+            <summary>
+            Notice服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.NoticeService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Notice.NoticeGetListInput)">
+            <summary>
+            多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.NoticeService.SendOnlineAsync(System.Guid)">
+            <summary>
+            发送在线消息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.NoticeService.SendOfflineAsync(System.Guid)">
+            <summary>
+            发送离线消息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.RecordLog.OperationLogService">
+            <summary>
+            OperationLog服务实现
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.System.DeptService">
+            <summary>
+            Dept服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.DeptService.GetRoleIdAsync(System.Guid)">
+            <summary>
+            通过角色id查询该角色全部部门
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.DeptService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Dept.DeptGetListInputVo)">
+            <summary>
+            多查
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.System.MenuService">
+            <summary>
+            Menu服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.MenuService.GetListRoleIdAsync(System.Guid)">
+            <summary>
+            查询当前角色的菜单
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.System.PostService">
+            <summary>
+            Post服务实现
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.System.RoleService">
+            <summary>
+            Role服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.CreateAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleCreateInputVo)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.UpdateAsync(System.Guid,Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleUpdateInputVo)">
+            <summary>
+            修改角色
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.UpdateStateAsync(System.Guid,System.Boolean)">
+            <summary>
+            更新状态
+            </summary>
+            <param name="id"></param>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.GetAuthUserByRoleIdAsync(System.Guid,System.Boolean,Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleAuthUserGetListInput)">
+            <summary>
+            获取角色下的用户
+            </summary>
+            <param name="roleId"></param>
+            <param name="input"></param>
+            <param name="isAllocated">是否在该角色下</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.CreateAuthUserAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleAuthUserCreateOrDeleteInput)">
+            <summary>
+            批量给用户授权
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.RoleService.DeleteAuthUserAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleAuthUserCreateOrDeleteInput)">
+            <summary>
+            批量取消授权
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.System.UserService">
+            <summary>
+            User服务实现
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.GetListAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.User.UserGetListInputVo)">
+            <summary>
+            查询用户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.CreateAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.User.UserCreateInputVo)">
+            <summary>
+            添加用户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.GetAsync(System.Guid)">
+            <summary>
+            单查
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.UpdateAsync(System.Guid,Yi.Framework.Rbac.Application.Contracts.Dtos.User.UserUpdateInputVo)">
+            <summary>
+            更新用户
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.UpdateProfileAsync(Yi.Framework.Rbac.Application.Contracts.Dtos.User.ProfileUpdateInputVo)">
+            <summary>
+            更新个人中心
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.System.UserService.UpdateStateAsync(System.Guid,System.Boolean)">
+            <summary>
+            更新状态
+            </summary>
+            <param name="id"></param>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Services.TestServcie">
+            <summary>
+            测试文档控制器
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.Services.TestServcie.GetTaskTest">
+            <summary>
+            你好，多线程
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.SignalRHubs.NoticeHub.#ctor">
+            <summary>
+            由于发布功能，主要是服务端项客户端主动推送
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.SignalRHubs.OnlineHub.OnConnectedAsync">
+            <summary>
+            成功连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Application.SignalRHubs.OnlineHub.OnDisconnectedAsync(System.Exception)">
+            <summary>
+            断开连接
+            </summary>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

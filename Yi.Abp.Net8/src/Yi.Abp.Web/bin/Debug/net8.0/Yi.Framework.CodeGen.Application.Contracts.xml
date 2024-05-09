@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.CodeGen.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldDto.Name">
+            <summary>
+            字段名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldDto.IsRequired">
+            <summary>
+            是否必填
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldDto.IsKey">
+            <summary>
+            是否主键
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldDto.IsAutoAdd">
+            <summary>
+            是否自增
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldDto.IsPublic">
+            <summary>
+            是否公共
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Field.FieldGetListInput.Name">
+            <summary>
+            字段名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Table.TableDto.Name">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Table.TableDto.Description">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Table.TableDto.Fields">
+            <summary>
+            一表多字段
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Template.TemplateDto.TemplateStr">
+            <summary>
+            模板字符串
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Template.TemplateDto.BuildPath">
+            <summary>
+            生成路径
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Template.TemplateDto.Name">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Template.TemplateDto.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.CodeGen.Application.Contracts.Dtos.Template.TemplateGetListInput.Name">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+    </members>
+</doc>

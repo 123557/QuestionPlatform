@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Bbs.Domain.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Caches.LevelCacheItem.CurrentLevel">
+            <summary>
+            当前等级
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Caches.LevelCacheItem.MinExperience">
+            <summary>
+            最小所需经验值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Caches.LevelCacheItem.Name">
+            <summary>
+            等级名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Caches.LevelCacheItem.Nick">
+            <summary>
+            等级称号
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Caches.LevelCacheItem.Logo">
+            <summary>
+            等候logo
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Shared.Consts.ArticleConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Shared.Consts.CommentConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Shared.Consts.DiscussConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Shared.Consts.LabelConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Bbs.Domain.Shared.Consts.PlateConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.DiscussPermissionTypeEnum.Public">
+            <summary>
+            默认：公开
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.DiscussPermissionTypeEnum.Oneself">
+            <summary>
+            仅自己可见
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.DiscussPermissionTypeEnum.User">
+            <summary>
+            部分用户可见
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.UserLimitEnum.Normal">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.UserLimitEnum.Dangerous">
+            <summary>
+            危险
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Bbs.Domain.Shared.Enums.UserLimitEnum.Ban">
+            <summary>
+            已禁止
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Etos.ExperienceChangeEventArgs.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Etos.ExperienceChangeEventArgs.Number">
+            <summary>
+            变化经验，可负
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Etos.MoneyChangeEventArgs.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Bbs.Domain.Shared.Etos.MoneyChangeEventArgs.Number">
+            <summary>
+            变化金额，可负
+            </summary>
+        </member>
+    </members>
+</doc>

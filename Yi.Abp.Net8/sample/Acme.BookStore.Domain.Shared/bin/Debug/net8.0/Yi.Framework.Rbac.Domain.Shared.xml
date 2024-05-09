@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Rbac.Domain.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Caches.UserInfoCacheItem.Info">
+            <summary>
+            存储的用户信息
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Consts.DeptConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Consts.MenuConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Consts.PostConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Consts.RoleConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Consts.UserConst">
+            <summary>
+            常量定义
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Dtos.BankInterestRecordDto">
+            <summary>
+            当前银行记录
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.BankInterestRecordDto.ComparisonValue">
+            <summary>
+            第三方的比较值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.BankInterestRecordDto.Value">
+            <summary>
+            当前汇率值
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.Rbac.Domain.Shared.Dtos.BankInterestRecordDto.IsExpire">
+            <summary>
+            判断时间是否过期
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.IsDeleted">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Salt">
+            <summary>
+            加密盐值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Icon">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Nick">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Ip">
+            <summary>
+            Ip
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Phone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Introduction">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.DeptId">
+            <summary>
+            部门id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.CreatorId">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.LastModifierId">
+            <summary>
+            最后修改者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.LastModificationTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.OrderNum">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.UserDto.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.IsDeleted">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.CreatorId">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.LastModifierId">
+            <summary>
+            最后修改者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.LastModificationTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.OrderNum">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.RoleName">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.RoleCode">
+             <summary>
+             角色编码 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.Remark">
+             <summary>
+             描述 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.DataScope">
+             <summary>
+             角色数据范围 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.RoleDto.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.IsDeleted">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.CreatorId">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.LastModifierId">
+            <summary>
+            最后修改者
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.LastModificationTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.OrderNum">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.MenuName">
+            <summary>
+            菜单名
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.MenuType">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.PermissionCode">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.ParentId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.MenuIcon">
+             <summary>
+             菜单图标 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.Router">
+             <summary>
+             菜单组件路由 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.IsLink">
+             <summary>
+             是否为外部链接 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.IsCache">
+             <summary>
+             是否缓存 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.IsShow">
+             <summary>
+             是否显示 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.Remark">
+             <summary>
+             描述 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.Component">
+             <summary>
+             组件路径 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Dtos.MenuDto.Query">
+             <summary>
+             路由参数 
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Enums.SexEnum">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Rbac.Domain.Shared.Enums.SexEnum.Male">
+            <summary>
+            男性
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Rbac.Domain.Shared.Enums.SexEnum.Woman">
+            <summary>
+            女性
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.Rbac.Domain.Shared.Enums.SexEnum.Unknown">
+            <summary>
+            未知
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Etos.LoginEventArgs.LoginLocation">
+             <summary>
+             登录地点 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Etos.LoginEventArgs.LoginIp">
+             <summary>
+             登录Ip 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Etos.LoginEventArgs.Browser">
+             <summary>
+             浏览器 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Etos.LoginEventArgs.Os">
+             <summary>
+             操作系统 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Etos.LoginEventArgs.LogMsg">
+             <summary>
+             登录信息 
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Etos.UserCreateEventArgs">
+            <summary>
+            用户创建的id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Model.OnlineUserModel.ConnnectionId">
+            <summary>
+            客户端连接Id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Model.OnlineUserModel.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.OperLog.OperLogAttribute.OperType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.OperLog.OperLogAttribute.Title">
+            <summary>
+            日志标题（模块）
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.OperLog.OperLogAttribute.IsSaveRequestData">
+            <summary>
+            是否保存请求数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.OperLog.OperLogAttribute.IsSaveResponseData">
+            <summary>
+            是否保存返回数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Options.RbacOptions.AdminPassword">
+            <summary>
+            超级管理员默认密码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Options.RbacOptions.TenantAdminPassword">
+            <summary>
+            租户超级管理员默认密码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Options.RbacOptions.EnableCaptcha">
+            <summary>
+            是否开启登录验证码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Options.RbacOptions.EnableRegister">
+            <summary>
+            是否开启用户注册功能
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Domain.Shared.Options.RbacOptions.EnableDataBaseBackup">
+            <summary>
+            是否开启数据库备份
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Domain.Shared.Options.RefreshJwtOptions">
+            <summary>
+            刷新token
+            </summary>
+        </member>
+    </members>
+</doc>

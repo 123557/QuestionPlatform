@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\5f43c32c-34c1-ced2-e3ae-3a11f30f195f",
+      "PackagePath": "staticwebassets\\File"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\7ab8ae3c-d528-a81c-cb05-3a11d8a09b12",
+      "PackagePath": "staticwebassets\\File"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\a1198983-519f-4ff8-02cb-3a11d86bfe0d",
+      "PackagePath": "staticwebassets\\File"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\ab0bdda9-f700-bb50-c72f-3a11d8a0c103",
+      "PackagePath": "staticwebassets\\File"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\e304f9ee-d65c-cd74-0ccd-3a122ab78a29.xlsx",
+      "PackagePath": "staticwebassets\\File\\e304f9ee-d65c-cd74-0ccd-3a122ab78a29.xlsx"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\File\\eb5ab0d2-8b61-05ab-ff9e-3a122ab107dc.xlsx",
+      "PackagePath": "staticwebassets\\File\\eb5ab0d2-8b61-05ab-ff9e-3a122ab107dc.xlsx"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\01e95186-f3c7-2a02-c4a2-3a11dd15e855.png",
+      "PackagePath": "staticwebassets\\Image\\01e95186-f3c7-2a02-c4a2-3a11dd15e855.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\07d31b38-3e39-fec7-551a-3a11dd3c02c8.png",
+      "PackagePath": "staticwebassets\\Image\\07d31b38-3e39-fec7-551a-3a11dd3c02c8.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\089b39f5-113f-4c40-3260-3a11dd2f8f24.png",
+      "PackagePath": "staticwebassets\\Image\\089b39f5-113f-4c40-3260-3a11dd2f8f24.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\09711d19-7152-586e-e842-3a11dd106582.png",
+      "PackagePath": "staticwebassets\\Image\\09711d19-7152-586e-e842-3a11dd106582.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\0d31d4fc-770d-a3dc-a8ee-3a11f1dd0db9.png",
+      "PackagePath": "staticwebassets\\Image\\0d31d4fc-770d-a3dc-a8ee-3a11f1dd0db9.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\12db1b24-e271-649d-736b-3a11dd0c1905.png",
+      "PackagePath": "staticwebassets\\Image\\12db1b24-e271-649d-736b-3a11dd0c1905.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\13a9458c-3081-25b7-f2cf-3a11dd31cfdc.png",
+      "PackagePath": "staticwebassets\\Image\\13a9458c-3081-25b7-f2cf-3a11dd31cfdc.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\1676a982-2e9c-c5b5-ab85-3a11dd31530d.png",
+      "PackagePath": "staticwebassets\\Image\\1676a982-2e9c-c5b5-ab85-3a11dd31530d.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\1c3441ae-9f81-9376-0d70-3a11d8fb4e67.png",
+      "PackagePath": "staticwebassets\\Image\\1c3441ae-9f81-9376-0d70-3a11d8fb4e67.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\1cb0bafd-06f3-1e97-c9e5-3a11dd0d8722.png",
+      "PackagePath": "staticwebassets\\Image\\1cb0bafd-06f3-1e97-c9e5-3a11dd0d8722.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\283c99e3-e5b9-763a-d33f-3a11dd48554d.png",
+      "PackagePath": "staticwebassets\\Image\\283c99e3-e5b9-763a-d33f-3a11dd48554d.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\31465dfd-605b-2a91-9941-3a11dd2c7b36.png",
+      "PackagePath": "staticwebassets\\Image\\31465dfd-605b-2a91-9941-3a11dd2c7b36.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\397c9341-5492-b87e-2c79-3a11dd8d41e3.png",
+      "PackagePath": "staticwebassets\\Image\\397c9341-5492-b87e-2c79-3a11dd8d41e3.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\3f2432d5-d33c-0055-91b4-3a11ddd5e5bf.png",
+      "PackagePath": "staticwebassets\\Image\\3f2432d5-d33c-0055-91b4-3a11ddd5e5bf.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\4b35df02-471f-bc2f-85b9-3a11ddcdac8e.png",
+      "PackagePath": "staticwebassets\\Image\\4b35df02-471f-bc2f-85b9-3a11ddcdac8e.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\505cdd7d-2263-88e3-2c9a-3a11dd2ebb46.png",
+      "PackagePath": "staticwebassets\\Image\\505cdd7d-2263-88e3-2c9a-3a11dd2ebb46.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\5aad95c1-cd13-bc11-8e3c-3a11dd4a94d1.png",
+      "PackagePath": "staticwebassets\\Image\\5aad95c1-cd13-bc11-8e3c-3a11dd4a94d1.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\5ea8fb27-18e9-5ef5-7711-3a11dd40742e.png",
+      "PackagePath": "staticwebassets\\Image\\5ea8fb27-18e9-5ef5-7711-3a11dd40742e.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\6011ea79-4506-dc3a-f232-3a11dd1460d6.png",
+      "PackagePath": "staticwebassets\\Image\\6011ea79-4506-dc3a-f232-3a11dd1460d6.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\61721067-5348-e44e-6301-3a11dd7ab63d.jpg",
+      "PackagePath": "staticwebassets\\Image\\61721067-5348-e44e-6301-3a11dd7ab63d.jpg"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\62942ce8-3c67-b881-16a8-3a11dd4a7161.png",
+      "PackagePath": "staticwebassets\\Image\\62942ce8-3c67-b881-16a8-3a11dd4a7161.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\6338ee1e-1b97-eb84-523b-3a11dd30e73f.png",
+      "PackagePath": "staticwebassets\\Image\\6338ee1e-1b97-eb84-523b-3a11dd30e73f.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\6e16e473-c1db-f8fe-349e-3a11dd11d960.png",
+      "PackagePath": "staticwebassets\\Image\\6e16e473-c1db-f8fe-349e-3a11dd11d960.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\6f004ef9-bafd-701a-bbf4-3a11dd106585.png",
+      "PackagePath": "staticwebassets\\Image\\6f004ef9-bafd-701a-bbf4-3a11dd106585.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\72a2d4eb-2ccd-521f-e919-3a11dd2a0fd6.png",
+      "PackagePath": "staticwebassets\\Image\\72a2d4eb-2ccd-521f-e919-3a11dd2a0fd6.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\74de1383-8b24-ebc7-d0d9-3a11dd41bd61.png",
+      "PackagePath": "staticwebassets\\Image\\74de1383-8b24-ebc7-d0d9-3a11dd41bd61.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\7661cefd-1039-922c-1e7d-3a11dd0abcde.png",
+      "PackagePath": "staticwebassets\\Image\\7661cefd-1039-922c-1e7d-3a11dd0abcde.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\7ca5140d-f015-d5a8-9d64-3a11dd2ebb42.png",
+      "PackagePath": "staticwebassets\\Image\\7ca5140d-f015-d5a8-9d64-3a11dd2ebb42.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\818bd949-7146-3875-64f8-3a11dd84a9db.png",
+      "PackagePath": "staticwebassets\\Image\\818bd949-7146-3875-64f8-3a11dd84a9db.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\81902e77-6e1a-1240-6b80-3a11dd15e851.png",
+      "PackagePath": "staticwebassets\\Image\\81902e77-6e1a-1240-6b80-3a11dd15e851.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\8bf3f90f-2904-a621-a453-3a11dd315311.png",
+      "PackagePath": "staticwebassets\\Image\\8bf3f90f-2904-a621-a453-3a11dd315311.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\8e6fa2bc-a3a8-b833-067a-3a11dd2fddc0.png",
+      "PackagePath": "staticwebassets\\Image\\8e6fa2bc-a3a8-b833-067a-3a11dd2fddc0.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\8ed22ba9-d347-8f69-3891-3a11dd0d8727.png",
+      "PackagePath": "staticwebassets\\Image\\8ed22ba9-d347-8f69-3891-3a11dd0d8727.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\9b3bd801-045b-2f76-d4e1-3a11dd3a5c9e.png",
+      "PackagePath": "staticwebassets\\Image\\9b3bd801-045b-2f76-d4e1-3a11dd3a5c9e.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\9fba1b54-4b73-fca7-1d7c-3a11dd0708ad.png",
+      "PackagePath": "staticwebassets\\Image\\9fba1b54-4b73-fca7-1d7c-3a11dd0708ad.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\a03c4ea5-f4f2-7a0d-787f-3a11dd1460d2.png",
+      "PackagePath": "staticwebassets\\Image\\a03c4ea5-f4f2-7a0d-787f-3a11dd1460d2.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\a0633ac3-ff33-cc66-cb9b-3a11dd0e8a60.png",
+      "PackagePath": "staticwebassets\\Image\\a0633ac3-ff33-cc66-cb9b-3a11dd0e8a60.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\a6e0f577-c102-a02a-dc8f-3a11dd2a0fc7.png",
+      "PackagePath": "staticwebassets\\Image\\a6e0f577-c102-a02a-dc8f-3a11dd2a0fc7.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\a7b1c89f-b488-6a0a-0712-3a122ac98e50.png",
+      "PackagePath": "staticwebassets\\Image\\a7b1c89f-b488-6a0a-0712-3a122ac98e50.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\abc17097-1583-41dd-a4d6-3a11dd2e9d61.png",
+      "PackagePath": "staticwebassets\\Image\\abc17097-1583-41dd-a4d6-3a11dd2e9d61.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\af9213ec-08e5-df8e-3457-3a11f1dd0d9e.png",
+      "PackagePath": "staticwebassets\\Image\\af9213ec-08e5-df8e-3457-3a11f1dd0d9e.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\b19655d1-34c1-3b65-f461-3a11dd0bc27f.png",
+      "PackagePath": "staticwebassets\\Image\\b19655d1-34c1-3b65-f461-3a11dd0bc27f.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\b981f5c9-8ddd-5a63-8aa6-3a11dd11d95d.png",
+      "PackagePath": "staticwebassets\\Image\\b981f5c9-8ddd-5a63-8aa6-3a11dd11d95d.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\bc17aa09-d13b-fd58-b033-3a11ddc4fad2.png",
+      "PackagePath": "staticwebassets\\Image\\bc17aa09-d13b-fd58-b033-3a11ddc4fad2.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\c29a3c29-e6ae-df8b-275f-3a11dd0e8a63.png",
+      "PackagePath": "staticwebassets\\Image\\c29a3c29-e6ae-df8b-275f-3a11dd0e8a63.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\c38676e8-b512-9bf1-52f6-3a11d8cb5cb1.jpg",
+      "PackagePath": "staticwebassets\\Image\\c38676e8-b512-9bf1-52f6-3a11d8cb5cb1.jpg"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\d2a2ba65-6a5b-a11c-72d5-3a11dd0d3fed.png",
+      "PackagePath": "staticwebassets\\Image\\d2a2ba65-6a5b-a11c-72d5-3a11dd0d3fed.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\d98d8810-e8dc-4f7d-2eb3-3a11dd391868.png",
+      "PackagePath": "staticwebassets\\Image\\d98d8810-e8dc-4f7d-2eb3-3a11dd391868.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\e6e1605c-e01f-ebfb-368a-3a11dd0708a8.png",
+      "PackagePath": "staticwebassets\\Image\\e6e1605c-e01f-ebfb-368a-3a11dd0708a8.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\ed700833-3d2b-f220-1f6e-3a11dd04e9e2.png",
+      "PackagePath": "staticwebassets\\Image\\ed700833-3d2b-f220-1f6e-3a11dd04e9e2.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\f1c738a3-1fc6-1b7c-c7ec-3a11dd3ef850.png",
+      "PackagePath": "staticwebassets\\Image\\f1c738a3-1fc6-1b7c-c7ec-3a11dd3ef850.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\f2366f8d-0c37-4403-54c0-3a11dd3a5c99.png",
+      "PackagePath": "staticwebassets\\Image\\f2366f8d-0c37-4403-54c0-3a11dd3a5c99.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\f274b6eb-b11d-d9a0-5b4f-3a11dd464ea3.png",
+      "PackagePath": "staticwebassets\\Image\\f274b6eb-b11d-d9a0-5b4f-3a11dd464ea3.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\Image\\faaef686-d169-1a22-4636-3a11dd7e89e5.jpg",
+      "PackagePath": "staticwebassets\\Image\\faaef686-d169-1a22-4636-3a11dd7e89e5.jpg"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\0.png",
+      "PackagePath": "staticwebassets\\icon\\0.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\1.png",
+      "PackagePath": "staticwebassets\\icon\\1.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\10.png",
+      "PackagePath": "staticwebassets\\icon\\10.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\11.png",
+      "PackagePath": "staticwebassets\\icon\\11.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\12.png",
+      "PackagePath": "staticwebassets\\icon\\12.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\13.png",
+      "PackagePath": "staticwebassets\\icon\\13.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\14.png",
+      "PackagePath": "staticwebassets\\icon\\14.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\2.png",
+      "PackagePath": "staticwebassets\\icon\\2.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\3.png",
+      "PackagePath": "staticwebassets\\icon\\3.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\4.png",
+      "PackagePath": "staticwebassets\\icon\\4.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\5.png",
+      "PackagePath": "staticwebassets\\icon\\5.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\6.png",
+      "PackagePath": "staticwebassets\\icon\\6.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\8.png",
+      "PackagePath": "staticwebassets\\icon\\8.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\icon\\9.png",
+      "PackagePath": "staticwebassets\\icon\\9.png"
+    },
+    {
+      "Id": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Web\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Yi.Abp.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Yi.Abp.Web.props",
+      "PackagePath": "build\\Yi.Abp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Yi.Abp.Web.props",
+      "PackagePath": "buildMultiTargeting\\Yi.Abp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Yi.Abp.Web.props",
+      "PackagePath": "buildTransitive\\Yi.Abp.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

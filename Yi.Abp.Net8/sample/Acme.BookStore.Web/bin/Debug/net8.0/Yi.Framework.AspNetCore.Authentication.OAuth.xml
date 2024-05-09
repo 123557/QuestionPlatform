@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.AspNetCore.Authentication.OAuth</name>
+    </assembly>
+    <members>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationConstants">
+            <summary>
+            Contains constants specific to the <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/>.
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults">
+            <summary>
+            Default values used by the Gitee authentication middleware.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.AuthenticationScheme">
+            <summary>
+            Default value for <see cref="!:AuthenticationScheme.Name"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.DisplayName">
+            <summary>
+            Default value for <see cref="!:AuthenticationScheme.DisplayName"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.Issuer">
+            <summary>
+            Default value for <see cref="!:AuthenticationSchemeOptions.ClaimsIssuer"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.CallbackPath">
+            <summary>
+            Default value for <see cref="!:RemoteAuthenticationOptions.CallbackPath"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.AuthorizationEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.AuthorizationEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.TokenEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.TokenEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.UserInformationEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.UserInformationEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationDefaults.UserEmailsEndpoint">
+            <summary>
+            Default value for <see cref="P:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions.UserEmailsEndpoint"/>.
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationExtensions">
+            <summary>
+            Extension methods to add Gitee authentication capabilities to an HTTP application pipeline.
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationExtensions.AddGitee(Microsoft.AspNetCore.Authentication.AuthenticationBuilder)">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables Gitee authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationExtensions.AddGitee(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables Gitee authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="configuration">The delegate used to configure the OpenID 2.0 options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationExtensions.AddGitee(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.String,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables Gitee authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="scheme">The authentication scheme associated with this instance.</param>
+            <param name="configuration">The delegate used to configure the Gitee options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationExtensions.AddGitee(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.String,System.String,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables Gitee authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="scheme">The authentication scheme associated with this instance.</param>
+            <param name="caption">The optional display name associated with this instance.</param>
+            <param name="configuration">The delegate used to configure the Gitee options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions">
+            <summary>
+            Defines a set of options used by <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationHandler"/>.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthenticationOptions.UserEmailsEndpoint">
+            <summary>
+            Gets or sets the address of the endpoint exposing
+            the email addresses associated with the logged in user.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.Authentication.OAuth.Gitee.GiteeAuthticationcationUserInfoResponse.id">
+            <summary>
+            也可以等于openId
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.OauthAuthenticationHandler`1.TicketConver(System.Collections.Generic.List{System.Security.Claims.Claim})">
+            <summary>
+            生成认证票据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationConstants">
+            <summary>
+            Contains constants specific to the <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/>.
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults">
+            <summary>
+            Default values for QQ authentication.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.AuthenticationScheme">
+            <summary>
+            Default value for <see cref="!:AuthenticationScheme.Name"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.DisplayName">
+            <summary>
+            Default value for <see cref="!:AuthenticationScheme.DisplayName"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.Issuer">
+            <summary>
+            Default value for <see cref="!:AuthenticationSchemeOptions.ClaimsIssuer"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.CallbackPath">
+            <summary>
+            Default value for <see cref="!:RemoteAuthenticationOptions.CallbackPath"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.AuthorizationEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.AuthorizationEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.TokenEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.TokenEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.UserIdentificationEndpoint">
+            <summary>
+            Default value for <see cref="P:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions.UserIdentificationEndpoint"/>.
+            </summary>
+        </member>
+        <member name="F:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationDefaults.UserInformationEndpoint">
+            <summary>
+            Default value for <see cref="!:OAuthOptions.UserInformationEndpoint"/>.
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationExtensions">
+            <summary>
+            Extension methods to add QQ authentication capabilities to an HTTP application pipeline.
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationExtensions.AddQQ(Microsoft.AspNetCore.Authentication.AuthenticationBuilder)">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables QQ authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationExtensions.AddQQ(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables QQ authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="configuration">The delegate used to configure the OpenID 2.0 options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationExtensions.AddQQ(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.String,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables QQ authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="scheme">The authentication scheme associated with this instance.</param>
+            <param name="configuration">The delegate used to configure the QQ options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="M:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationExtensions.AddQQ(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.String,System.String,System.Action{Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions})">
+            <summary>
+            Adds <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/> to the specified
+            <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>, which enables QQ authentication capabilities.
+            </summary>
+            <param name="builder">The authentication builder.</param>
+            <param name="scheme">The authentication scheme associated with this instance.</param>
+            <param name="caption">The optional display name associated with this instance.</param>
+            <param name="configuration">The delegate used to configure the QQ options.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</returns>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions">
+            <summary>
+            Defines a set of options used by <see cref="T:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationHandler"/>.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions.ApplyForUnionId">
+            <summary>
+            Gets or sets if the union Id (the primary key of an owner for different apps of the QQ platform) should be put into the user claims.
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.AspNetCore.Authentication.OAuth.QQ.QQAuthenticationOptions.UserIdentificationEndpoint">
+            <summary>
+            Gets or sets the URL of the user identification endpoint (a.k.a. the "OpenID endpoint").
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.AspNetCore.Authentication.OAuth.YiFrameworkAspNetCoreAuthenticationOAuthModule">
+            <summary>
+            本模块轮子来自 AspNet.Security.OAuth.QQ;
+            </summary>
+        </member>
+    </members>
+</doc>

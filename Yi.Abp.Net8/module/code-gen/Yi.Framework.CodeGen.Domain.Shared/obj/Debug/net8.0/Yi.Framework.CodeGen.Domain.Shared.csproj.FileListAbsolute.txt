@@ -1,0 +1,14 @@
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\bin\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.deps.json
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\bin\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\bin\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\bin\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.xml
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.csproj.AssemblyReference.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.AssemblyInfoInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.AssemblyInfo.cs
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\refint\Yi.Framework.CodeGen.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.xml
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\Yi.Framework.CodeGen.Domain.Shared.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\module\code-gen\Yi.Framework.CodeGen.Domain.Shared\obj\Debug\net8.0\ref\Yi.Framework.CodeGen.Domain.Shared.dll

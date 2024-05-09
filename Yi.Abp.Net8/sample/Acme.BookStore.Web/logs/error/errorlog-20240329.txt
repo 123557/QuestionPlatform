@@ -1,0 +1,14 @@
+2024-03-29 12:10:04.049 +08:00 [FTL] Yi框架-Abp.vNext，爆炸！
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor phase of the module Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule, Yi.Framework.SqlSugarCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null: UserEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "isdeleted" of relation "user" contains null values. See the inner exception for details.
+ ---> System.Exception: UserEntity 创建失败,请认真检查 1、属性需要get set 2、特殊类型需要加Ignore 具体错误内容： 23502: column "isdeleted" of relation "user" contains null values
+   at SqlSugar.CodeFirstProvider.InitTables(Type[] entityTypes)
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.CodeFirst(IServiceProvider service) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 100
+   at Yi.Framework.SqlSugarCore.YiFrameworkSqlSugarCoreModule.OnPreApplicationInitializationAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\YiFrameworkSqlSugarCoreModule.cs:line 73
+   at Volo.Abp.Modularity.OnPreApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 39
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Core.Modularity.YiModuleManager.InitializeModulesAsync(ApplicationInitializationContext context) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.Core\Modularity\YiModuleManager.cs:line 51
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in D:\vs_space\Yi\Yi.Abp.Net8\sample\Acme.BookStore.Web\Program.cs:line 27

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.SqlSugarCore.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.Url">
+            <summary>
+            连接字符串(如果开启多租户，也就是默认库了)，必填
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EnabledDbSeed">
+            <summary>
+            开启种子数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EnabledCodeFirst">
+            <summary>
+            开启codefirst
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EnabledSqlLog">
+            <summary>
+            开启sql日志
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EntityAssembly">
+            <summary>
+            实体程序集
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EnabledReadWrite">
+            <summary>
+            开启读写分离
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.ReadUrl">
+            <summary>
+            读写分离
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.EnabledSaasMultiTenancy">
+            <summary>
+            开启Saas多租户
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.MasterSaasMultiTenancyUrl">
+            <summary>
+            默认租户库连接,如果不填，那就是默认库的地址
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.SaasMultiTenancy">
+            <summary>
+            Saas租户连接
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.GetDefaultSaasMultiTenancy">
+            <summary>
+            获取默认数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.Abstractions.DbConnOptions.GetMasterSaasMultiTenancy">
+            <summary>
+            获取主数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.SaasMultiTenancyOptions.Name">
+            <summary>
+            租户名称标识
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.Abstractions.SaasMultiTenancyOptions.Url">
+            <summary>
+            连接Url
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.Abstractions.ISqlSugarDbContext.BackupDataBase">
+            <summary>
+            数据库备份
+            </summary>
+        </member>
+    </members>
+</doc>

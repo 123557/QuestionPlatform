@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.SqlSugarCore</name>
+    </assembly>
+    <members>
+        <member name="M:Yi.Framework.SqlSugarCore.Repositories.SqlSugarObjectRepository`1.GetDbContextAsync">
+            <summary>
+            获取DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.GetDbContextAsync">
+            <summary>
+            获取DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.GetDbSimpleClientAsync">
+            <summary>
+            获取简单Db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Yi.Framework.SqlSugarCore.SqlSugarDbContext.SqlSugarClient">
+            <summary>
+            SqlSugar 客户端
+            </summary>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.GetCurrentConnectionString">
+            <summary>
+            db切换多库支持
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.OnSqlSugarClientConfig(SqlSugar.ISqlSugarClient)">
+            <summary>
+            上下文对象扩展
+            </summary>
+            <param name="sqlSugarClient"></param>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.DataExecuting(System.Object,SqlSugar.DataFilterModel)">
+            <summary>
+            数据
+            </summary>
+            <param name="oldValue"></param>
+            <param name="entityInfo"></param>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.OnLogExecuting(System.String,SqlSugar.SugarParameter[])">
+            <summary>
+            日志
+            </summary>
+            <param name="sql"></param>
+            <param name="pars"></param>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.OnLogExecuted(System.String,SqlSugar.SugarParameter[])">
+            <summary>
+            日志
+            </summary>
+            <param name="sql"></param>
+            <param name="pars"></param>
+        </member>
+        <member name="M:Yi.Framework.SqlSugarCore.SqlSugarDbContext.EntityService(System.Reflection.PropertyInfo,SqlSugar.EntityColumnInfo)">
+            <summary>
+            实体配置
+            </summary>
+            <param name="property"></param>
+            <param name="column"></param>
+        </member>
+    </members>
+</doc>

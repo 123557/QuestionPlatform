@@ -1,0 +1,12 @@
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\bin\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.deps.json
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\bin\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\bin\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.csproj.AssemblyReference.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.AssemblyInfoInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.AssemblyInfo.cs
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\refint\Yi.Framework.AuditLogging.Domain.Shared.dll
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\Yi.Framework.AuditLogging.Domain.Shared.pdb
+D:\vs_space\Yi\Yi.Abp.Net8\module\audit-logging\Yi.Framework.AuditLogging.Domain.Shared\obj\Debug\net8.0\ref\Yi.Framework.AuditLogging.Domain.Shared.dll

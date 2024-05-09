@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yi.Framework.Rbac.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto.UserName">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto.Uuid">
+            <summary>
+            唯一标识码
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto.Phone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Account.RegisterDto.Code">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigCreateInputVo">
+            <summary>
+            Config输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListInputVo">
+            <summary>
+            配置查询参数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListInputVo.ConfigName">
+            <summary>
+            配置名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListInputVo.ConfigKey">
+            <summary>
+            配置键
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.ConfigName">
+            <summary>
+            配置名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.ConfigKey">
+            <summary>
+            配置主键
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.ConfigValue">
+            <summary>
+            配置值
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.ConfigType">
+            <summary>
+            配置类型
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.OrderNum">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Config.ConfigGetListOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Dept.DeptCreateInputVo">
+            <summary>
+            Dept输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.DictionaryType.DictionaryTypeCreateInputVo">
+            <summary>
+            DictionaryType输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Dictionary.DictionaryCreateInputVo">
+            <summary>
+            Dictionary输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.LoginLog.LoginLogGetListOutputDto.LoginIp">
+             <summary>
+             登录Ip 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.LoginLog.LoginLogGetListOutputDto.Browser">
+             <summary>
+             浏览器 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.LoginLog.LoginLogGetListOutputDto.Os">
+             <summary>
+             操作系统 
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.LoginLog.LoginLogGetListOutputDto.LogMsg">
+             <summary>
+             登录信息 
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Menu.MenuCreateInputVo">
+            <summary>
+            Menu输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Notice.NoticeCreateInput">
+            <summary>
+            Notice输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Notice.NoticeGetListInput">
+            <summary>
+            查询参数
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Post.PostCreateInputVo">
+            <summary>
+            Post输入创建对象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.Role.RoleCreateInputVo">
+            <summary>
+            Role输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.JobId">
+            <summary>
+            作业 Id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.GroupName">
+            <summary>
+            作业组名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.JobType">
+            <summary>
+            作业处理程序类型
+            </summary>
+            <remarks>存储的是类型的 FullName</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.AssemblyName">
+            <summary>
+            作业处理程序类型所在程序集
+            </summary>
+            <remarks>存储的是程序集 Name</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.Concurrent">
+            <summary>
+            是否采用并行执行
+            </summary>
+            <remarks>如果设置为 false，那么使用串行执行</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.IncludeAnnotations">
+            <summary>
+            是否扫描 IJob 实现类 [Trigger] 特性触发器
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.Properties">
+            <summary>
+            作业信息额外数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.LastRunTime">
+            <summary>
+            作业更新时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.Blocked">
+            <summary>
+            标记其他作业正在执行
+            </summary>
+            <remarks>当 <see cref="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.Concurrent"/> 为 false 时有效，也就是串行执行</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.RuntimeJobType">
+            <summary>
+            作业处理程序运行时类型
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.RuntimeProperties">
+            <summary>
+            作业信息额外数据运行时实例
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetListOutput.TriggerArgs">
+            <summary>
+            触发器参数
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.JobId">
+            <summary>
+            作业 Id
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.GroupName">
+            <summary>
+            作业组名称
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.JobType">
+            <summary>
+            作业处理程序类型
+            </summary>
+            <remarks>存储的是类型的 FullName</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.AssemblyName">
+            <summary>
+            作业处理程序类型所在程序集
+            </summary>
+            <remarks>存储的是程序集 Name</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.Concurrent">
+            <summary>
+            是否采用并行执行
+            </summary>
+            <remarks>如果设置为 false，那么使用串行执行</remarks>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.IncludeAnnotations">
+            <summary>
+            是否扫描 IJob 实现类 [Trigger] 特性触发器
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.Properties">
+            <summary>
+            作业信息额外数据
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.UpdatedTime">
+            <summary>
+            作业更新时间
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.Task.TaskGetOutput.Type">
+            <summary>
+            触发器类型
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.Dtos.User.UserCreateInputVo">
+            <summary>
+            User输入创建对象
+            </summary>
+        </member>
+        <member name="P:Yi.Framework.Rbac.Application.Contracts.Dtos.User.UserUpdateInputVo.Password">
+            <summary>
+            该成员需忽略
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IConfigService">
+            <summary>
+            Config服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IDeptService">
+            <summary>
+            Dept服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IDictionaryService">
+            <summary>
+            Dictionary服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IDictionaryTypeService">
+            <summary>
+            DictionaryType服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IMenuService">
+            <summary>
+            Menu服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.INoticeService">
+            <summary>
+            Notice服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IOperationLogService">
+            <summary>
+            OperationLog服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IPostService">
+            <summary>
+            Post服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IRoleService">
+            <summary>
+            Role服务抽象
+            </summary>
+        </member>
+        <member name="T:Yi.Framework.Rbac.Application.Contracts.IServices.IUserService">
+            <summary>
+            User服务抽象
+            </summary>
+        </member>
+    </members>
+</doc>

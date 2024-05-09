@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "ccnetcore",
+  "classifications": [ "Common", "Code" ],
+  "identity": "yi",
+  "name": "CHAM",
+  "shortName": "QuestionPlatform",
+  "sourceName": "CHAM.QuestionPlatform",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "bin/**/*", "obj/**/*", "*.user", "*.vspscc", "*.vssscc", "*.cache",".git/**/*",".vs/**/*" ]
+        }
+      ]
+    }
+  ]
+   
+}

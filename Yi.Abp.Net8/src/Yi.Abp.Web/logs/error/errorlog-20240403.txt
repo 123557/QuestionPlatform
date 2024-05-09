@@ -1,0 +1,384 @@
+2024-04-03 12:00:00.435 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an unhandled Exception: 
+System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+2024-04-03 12:00:00.437 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2024-04-03 13:00:00.448 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an unhandled Exception: 
+System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+2024-04-03 13:00:00.449 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2024-04-03 14:00:00.331 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an unhandled Exception: 
+System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+2024-04-03 14:00:00.331 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2024-04-03 14:30:01.539 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "对不起，在处理您的请求期间产生了一个服务器内部错误！！",
+  "details": null,
+  "data": {
+    "Severity": "错误",
+    "InvariantSeverity": "ERROR",
+    "SqlState": "23505",
+    "MessageText": "重复键违反唯一约束\"yitable_pkey\"",
+    "Detail": "Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.",
+    "SchemaName": "public",
+    "TableName": "yitable",
+    "ConstraintName": "yitable_pkey",
+    "File": "nbtinsert.c",
+    "Line": "670",
+    "Routine": "_bt_check_unique"
+  },
+  "validationErrors": null
+}
+
+2024-04-03 14:30:01.539 +08:00 [ERR] 23505: 重复键违反唯一约束"yitable_pkey"
+Npgsql.PostgresException (0x80004005): 23505: 重复键违反唯一约束"yitable_pkey"
+   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.InsertableProvider`1.ExecuteCommandAsync()
+   at SqlSugar.InsertableProvider`1.ExecuteCommandIdentityIntoEntityAsync()
+   at SqlSugar.InsertableProvider`1.ExecuteReturnEntityAsync()
+   at SqlSugar.SimpleClient`1.InsertReturnEntityAsync(T insertObj)
+   at Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.InsertReturnEntityAsync(TEntity insertObj) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\Repositories\SqlSugarRepository.cs:line 355
+   at Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.InsertAsync(TEntity entity, Boolean autoSave, CancellationToken cancellationToken) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\Repositories\SqlSugarRepository.cs:line 106
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method2279(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+  Exception data:
+    Severity: 错误
+    SqlState: 23505
+    MessageText: 重复键违反唯一约束"yitable_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: yitable
+    ConstraintName: yitable_pkey
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+2024-04-03 14:30:01.544 +08:00 [ERR] ---------- Exception Data ----------
+Severity = 错误
+InvariantSeverity = ERROR
+SqlState = 23505
+MessageText = 重复键违反唯一约束"yitable_pkey"
+Detail = Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+SchemaName = public
+TableName = yitable
+ConstraintName = yitable_pkey
+File = nbtinsert.c
+Line = 670
+Routine = _bt_check_unique
+
+2024-04-03 14:30:10.942 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "对不起，在处理您的请求期间产生了一个服务器内部错误！！",
+  "details": null,
+  "data": {
+    "Severity": "错误",
+    "InvariantSeverity": "ERROR",
+    "SqlState": "23505",
+    "MessageText": "重复键违反唯一约束\"yitable_pkey\"",
+    "Detail": "Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.",
+    "SchemaName": "public",
+    "TableName": "yitable",
+    "ConstraintName": "yitable_pkey",
+    "File": "nbtinsert.c",
+    "Line": "670",
+    "Routine": "_bt_check_unique"
+  },
+  "validationErrors": null
+}
+
+2024-04-03 14:30:10.942 +08:00 [ERR] 23505: 重复键违反唯一约束"yitable_pkey"
+Npgsql.PostgresException (0x80004005): 23505: 重复键违反唯一约束"yitable_pkey"
+   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at SqlSugar.AdoProvider.ExecuteCommandAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.InsertableProvider`1.ExecuteCommandAsync()
+   at SqlSugar.InsertableProvider`1.ExecuteCommandIdentityIntoEntityAsync()
+   at SqlSugar.InsertableProvider`1.ExecuteReturnEntityAsync()
+   at SqlSugar.SimpleClient`1.InsertReturnEntityAsync(T insertObj)
+   at Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.InsertReturnEntityAsync(TEntity insertObj) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\Repositories\SqlSugarRepository.cs:line 355
+   at Yi.Framework.SqlSugarCore.Repositories.SqlSugarRepository`1.InsertAsync(TEntity entity, Boolean autoSave, CancellationToken cancellationToken) in D:\vs_space\Yi\Yi.Abp.Net8\framework\Yi.Framework.SqlSugarCore\Repositories\SqlSugarRepository.cs:line 106
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method2279(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+  Exception data:
+    Severity: 错误
+    SqlState: 23505
+    MessageText: 重复键违反唯一约束"yitable_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: yitable
+    ConstraintName: yitable_pkey
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+2024-04-03 14:30:10.942 +08:00 [ERR] ---------- Exception Data ----------
+Severity = 错误
+InvariantSeverity = ERROR
+SqlState = 23505
+MessageText = 重复键违反唯一约束"yitable_pkey"
+Detail = Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+SchemaName = public
+TableName = yitable
+ConstraintName = yitable_pkey
+File = nbtinsert.c
+Line = 670
+Routine = _bt_check_unique
+
+2024-04-03 15:00:00.438 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an unhandled Exception: 
+System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+2024-04-03 15:00:00.438 +08:00 [ERR] Job DEFAULT.InterestRecordsJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.AggregateException: One or more errors occurred. (BiyingBank获取数据异常)
+ ---> System.Exception: BiyingBank获取数据异常
+ ---> Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 24
+   --- End of inner exception stack trace ---
+   at Yi.Framework.Bbs.Domain.Managers.BankValue.BiyingBankValueProvider.GetValueAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankValue\BiyingBankValueProvider.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.GetThirdPartyValue() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 68
+   at Yi.Framework.Bbs.Domain.Managers.BankManager.CreateInterestRecordsAsync() in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Domain\Managers\BankManager.cs:line 82
+   at Yi.Framework.Bbs.Application.Jobs.InterestRecordsJob.Execute(IJobExecutionContext context) in D:\vs_space\Yi\Yi.Abp.Net8\module\bbs\Yi.Framework.Bbs.Application\Jobs\InterestRecordsJob.cs:line 29
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
